@@ -1,0 +1,11 @@
+[
+    {
+      "slug": "legal-notice-2024",
+      "title": "Legal Notice 2024",
+      "pubDate": "2024-11-15",
+      "tags": ["legal", "notice"],
+      "description": "Annual legal notice issued by the board.",
+      "heroImage": "/images/legal-2024-thumb.jpg",
+      "pdfFilename": "legal-notice-2024.pdf"
+    }
+  ]

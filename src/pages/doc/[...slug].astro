@@ -1,0 +1,35 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import FormattedDate from '../../components/FormattedDate.astro';
+import pdfs from '../../data/pdfs.json';
+
+export async function getStaticPaths() {
+  return pdfs.map((pdf) => ({
+    params: { slug: pdf.slug },
+    props: { pdf },
+  }));
+}
+
+const { pdf } = Astro.props;
+const PDF_URL = `https://your-r2-bucket-domain/${pdf.pdfFilename}`; // Replace with actual R2 path
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={pdf.title} description={pdf.description} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>{pdf.title}</h1>
+			<p><FormattedDate date={new Date(pdf.pubDate)} /></p>
+			<p>{pdf.description}</p>
+			<iframe src={PDF_URL} width="100%" height="800"></iframe>
+			<p><a href={PDF_URL}>Download PDF</a></p>
+		</main>
+		<Footer />
+	</body>
+</html>
