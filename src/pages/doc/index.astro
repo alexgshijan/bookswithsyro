@@ -91,7 +91,7 @@ const sorted = pdfs.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
 			<ul style="list-style: none; padding: 0;">
 				{sorted.map((pdf) => (
 					<li style="margin-bottom: 1.5rem;">
-						<a href={`/pdfs/${pdf.slug}/`} style="text-decoration: none;">
+						<a href={`/doc/${pdf.slug}/`} style="text-decoration: none;">
 							<h3 style="margin: 0; color: black;">{pdf.title}</h3>
 							<p style="margin: 0; color: gray;">
 								<FormattedDate date={new Date(pdf.pubDate)} />
