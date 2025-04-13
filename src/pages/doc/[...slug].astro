@@ -26,6 +26,7 @@ const PDF_URL = `https://pub-a4150c2d14e34942a7eb22425be6bde0.r2.dev/${pdf.pdfFi
         <meta property="og:description" content={pdf.description} />
         <meta property="og:type" content="article" />
         <meta property="og:url" content={`https://https://bookswithsyro.alexgshijan.workers.dev/pdfs/${pdf.slug}/`} />
+        <link rel="canonical" href={`https://https://bookswithsyro.alexgshijan.workers/pdfs/${pdf.slug}/`} />
 	</head>
 	<body>
 		<Header />
@@ -37,5 +38,17 @@ const PDF_URL = `https://pub-a4150c2d14e34942a7eb22425be6bde0.r2.dev/${pdf.pdfFi
 			<p><a href={PDF_URL}>Download PDF</a></p>
 		</main>
 		<Footer />
+        <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "{pdf.title}",
+    "description": "{pdf.description}",
+    "datePublished": "{pdf.pubDate}",
+    "url": "https://yourdomain.com/pdfs/{pdf.slug}/",
+    "encodingFormat": "application/pdf",
+    "fileFormat": "application/pdf"
+  }
+</script>
 	</body>
 </html>
