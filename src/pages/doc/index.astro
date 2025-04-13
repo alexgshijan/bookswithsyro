@@ -24,7 +24,6 @@ const sorted = pdfs.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
 						sorted.map((pdf, index) => (
 							<li>
 								<a href={`/pdfs/${pdf.slug}/`}>
-									<img src={pdf.heroImage} alt="" width="720" height="360" />
 									<h4 class="title">{pdf.title}</h4>
 									<p class="date"><FormattedDate date={new Date(pdf.pubDate)} /></p>
 								</a>
