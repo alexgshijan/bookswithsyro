@@ -20,6 +20,12 @@ const PDF_URL = `https://pub-a4150c2d14e34942a7eb22425be6bde0.r2.dev/${pdf.pdfFi
 <html lang="en">
 	<head>
 		<BaseHead title={pdf.title} description={pdf.description} />
+        <meta name="description" content={pdf.description} />
+        <meta name="keywords" content={pdf.tags?.join(', ')} />
+        <meta property="og:title" content={pdf.title} />
+        <meta property="og:description" content={pdf.description} />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content={`https://https://bookswithsyro.alexgshijan.workers.dev/pdfs/${pdf.slug}/`} />
 	</head>
 	<body>
 		<Header />
