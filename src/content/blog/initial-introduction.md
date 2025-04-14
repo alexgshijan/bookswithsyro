@@ -5,7 +5,7 @@ pubDate: "Apr 14 2025"
 heroImage: "/blog-placeholder-2.jpg"
 ---
 
-Hi there, my name is Alex George Shijan (Pseudonym : BooksWithSyro). I'll be going into more depth of who I am in the ![About](/about) page, but in brief I'm a Syro-Malabar Catholic from the Eparchy of Great Britian. I have some basic computer science skills and I want to use it in service of our church. I've tried to do this in a range of ways (more fails than successes), but my current attempt is to build a document archive, not unlike the malankara library. My hope is to build this up as a resource dedicated to the Syro-Malabar church, a place to help build up our community - that our Mar Thoma Nazrani heritage thrives not just in spirit, but in the words, traditions and documents we pass on to future generations.
+Hi there, my name is Alex George Shijan (Pseudonym : BooksWithSyro). I'll be going into more depth of who I am in the ![About](/about) page, but in brief I'm a Syro-Malabar Catholic from the Eparchy of Great Britian. I have some basic webdev skills and I want to use it in service of our church and community. I've tried to do this in a range of ways (more fails than successes), but my current attempt is to build a document archive, not unlike the malankara library. My hope is to build this up as a resource dedicated to the Syro-Malabar church, a place to help build up our community - that our Mar Thoma Nazrani heritage thrives not just in spirit, but in the words, traditions and documents we pass on to future generations.
 
 ## Current Progress and Future Plans
 
