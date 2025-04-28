@@ -25,7 +25,5 @@ I'm also exploring the possibility of automating metadata tagging using AI or so
 
 After that, I’ll need to work on developing a search index and setting up a browsable library, probably organized by category or topic. We'll see how it evolves!
 
----
-
 This is *BooksWithSyro*, signing off for now,  
 **Eesho Anugrahikatte.**
