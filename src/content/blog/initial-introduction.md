@@ -2,7 +2,7 @@
 title: "Initial Introduction"
 description: "The first blog post: an introduction to what I'm aiming towards and how you can help."
 pubDate: "Apr 14 2025"
-heroImage: "/blog-placeholder-2.png"
+heroImage: "/blog-placeholder-2.jpg"
 ---
 
 Hi there, my name is Alex George Shijan.  
