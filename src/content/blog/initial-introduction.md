@@ -47,9 +47,6 @@ In the future, once the archive is more developed, I may open up more ways for t
 - Opening a feedback form for improvements  
 
 **For Christ and His Church**,
-
 Alex George Shijan
-
 (Future) Seminarian, Eparchy of Great Britain
-
 Syro-Malabar Catholic Church
