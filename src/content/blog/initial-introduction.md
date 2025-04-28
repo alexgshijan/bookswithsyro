@@ -17,7 +17,7 @@ The next step is to build a system for managing uploads (restricted to myself an
 
 - Uploaded
 - Metadata is added (category, description, tags/keywords)
-- Watermarked (if necessary) or even just possible appending BookWithSyro at the end of the file title
+- Watermarked (if necessary) or even just possible appending BookWithSyro at the end of the file name
 - Stored securely in the bucket
 - Referenced through an updated JSON index
 
