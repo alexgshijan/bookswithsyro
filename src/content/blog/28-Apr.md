@@ -53,5 +53,7 @@ During our last meeting, Jaisama Aunty (also part of the Liturgy Team) suggested
 
 Her suggestion — and the support she showed — is part of why I’m writing this today. Even though I’m stepping away from the Liturgy Team, there are still ways I can contribute and serve our youth.
 
-This is *BooksWithSyro*, signing off for now,  
-**Eesho Anugrahikatte.**
+**For Christ and His Church**,
+Alex George Shijan
+Seminarian, Eparchy of Great Britain
+Syro-Malabar Catholic Church

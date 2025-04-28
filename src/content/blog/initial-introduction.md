@@ -5,7 +5,7 @@ pubDate: "Apr 14 2025"
 heroImage: "/blog-placeholder-2.jpg"
 ---
 
-Hi there, my name is Alex George Shijan (pseudonym: *BooksWithSyro*).  
+Hi there, my name is Alex George Shijan.  
 I'll go into more depth about who I am on the [About](/about) page, but briefly: I’m a Syro-Malabar Catholic from the Eparchy of Great Britain. I have some basic web development skills, and I want to use them in service of our Church and community.
 
 When I was beginning my deeper faith journey, one thing I noticed was how difficult it was to find accessible, reliable resources specifically about the Syro-Malabar Church — its history, liturgy, spirituality, and traditions.  
@@ -46,7 +46,7 @@ In the future, once the archive is more developed, I may open up more ways for t
 - Developing basic search functionality  
 - Opening a feedback form for improvements  
 
----
-
-This is *BooksWithSyro*, signing off for now,  
-**Eesho Anugrahikatte.**
+**For Christ and His Church**,
+Alex George Shijan
+Seminarian, Eparchy of Great Britain
+Syro-Malabar Catholic Church
