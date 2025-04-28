@@ -11,5 +11,5 @@ Hi there, my name is Alex George Shijan (Pseudonym : BooksWithSyro). I'll be goi
 
 I've currently setup a frontend (this webpage) and also configured a D2 bucket to store files. Next I need to buld the system to manage uploads (available only to me / specific admin account), where the file is uploaded, metadata added (category/ description/ tags or keywords), watermarked, stored in the bucket and the JSON updated to reference the file. It may be possible to get the tagging done with ai / some sort of OCR, it's something that I should look into. Following that I would need to work on a search index and probably some sort of library via split up by category. Will see.
 
-This is BooksWithSyro, signing off,
-Eesho Anugrahikatte.
+This is *BooksWithSyro*, signing off for now,  
+**Eesho Anugrahikatte.**
