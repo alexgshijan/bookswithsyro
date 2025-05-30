@@ -43,10 +43,10 @@ See https://github.com/adobe-type-tools/cmap-resources
         <div id="toolbarSidebar" class="toolbarHorizontalGroup">
           <div id="toolbarSidebarLeft">
             <div id="sidebarViewButtons" class="toolbarHorizontalGroup toggled" role="radiogroup">
-              <button id="viewThumbnail" class="toolbarButton toggled" type="button" tabindex="0" data-l10n-id="pdfjs-thumbs-button" role="radio" aria-checked="true" aria-controls="thumbnailView">
+              <button id="viewThumbnail" class="toolbarButton toggled" type="button" tabindex="0" data-l10n-id="pdfjs-thumbs-button" role="radio" aria-checked="false" aria-controls="thumbnailView">
                  <span data-l10n-id="pdfjs-thumbs-button-label"></span>
               </button>
-              <button id="viewOutline" class="toolbarButton" type="button" tabindex="0" data-l10n-id="pdfjs-document-outline-button" role="radio" aria-checked="false" aria-controls="outlineView">
+              <button id="viewOutline" class="toolbarButton" type="button" tabindex="0" data-l10n-id="pdfjs-document-outline-button" role="radio" aria-checked="true" aria-controls="outlineView">
                  <span data-l10n-id="pdfjs-document-outline-button-label"></span>
               </button>
               <button id="viewAttachments" class="toolbarButton" type="button" tabindex="0" data-l10n-id="pdfjs-attachments-button" role="radio" aria-checked="false" aria-controls="attachmentsView">
@@ -732,5 +732,16 @@ See https://github.com/adobe-type-tools/cmap-resources
 
     </div> <!-- outerContainer -->
     <div id="printContainer"></div>
+
+    <script type="module">
+      import { PDFViewerApplication } from './viewer.mjs';
+    
+      document.addEventListener('webviewerloaded', () => {
+        PDFViewerApplication.initializedPromise.then(() => {
+          PDFViewerApplication.pdfSidebar.open();
+          PDFViewerApplication.pdfSidebar.switchView(1); // 1 = Outline tab
+        });
+      });
+    </script>
   </body>
 </html>
