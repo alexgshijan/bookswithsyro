@@ -3,16 +3,15 @@ import BaseHead from '../../components/BaseHead.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import FormattedDate from '../../components/FormattedDate.astro';
-import pdfs from '../../data/pdfs.json';
 
-export async function getStaticPaths() {
-  return pdfs.map((pdf) => ({
-    params: { slug: pdf.filename },
-    props: { pdf },
-  }));
+const { slug } = Astro.params;
+const response = await fetch('https://pdf-archive.alexgshijan.workers.dev/api/pdfs');
+const pdfs = await response.json();
+const pdf = pdfs.find(p => p.filename === slug);
+
+if (!pdf) {
+  throw new Error('PDF not found');
 }
-
-const { pdf } = Astro.props;
 ---
 
 <!doctype html>
@@ -34,7 +33,7 @@ const { pdf } = Astro.props;
 			<p><FormattedDate date={new Date(pdf.pubDate)} /></p>
 			<p>{pdf.description}</p>
       <iframe 
-        src={`pdf.url`}
+        src={pdf.url}
         width="100%" 
         height="800px" 
         style="border: none;">
