@@ -24,8 +24,8 @@ const { pdf } = Astro.props;
         <meta property="og:title" content={pdf.title} />
         <meta property="og:description" content={pdf.description} />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content={`https://bookswithsyro.alexgshijan.workers.dev/doc/${pdf.slug}/`} />
-        <link rel="canonical" href={`https://bookswithsyro.alexgshijan.workers/doc/${pdf.slug}/`} />
+        <meta property="og:url" content={`https://bookswithsyro.alexgshijan.workers.dev/doc/${pdf.filename}/`} />
+        <link rel="canonical" href={`https://bookswithsyro.alexgshijan.workers/doc/${pdf.filename}/`} />
 	</head>
 	<body>
 		<Header />
@@ -34,7 +34,7 @@ const { pdf } = Astro.props;
 			<p><FormattedDate date={new Date(pdf.pubDate)} /></p>
 			<p>{pdf.description}</p>
       <iframe 
-        src={`/pdfjs/web/viewer.html?file=https://[Insert R2 Bucket URL]/${pdf.pdfFilename}`}
+        src={`pdf.url`}
         width="100%" 
         height="800px" 
         style="border: none;">
@@ -48,7 +48,7 @@ const { pdf } = Astro.props;
     name: pdf.title,
     description: pdf.description,
     datePublished: pdf.pubDate,
-    url: `https://bookswithsyro.alexgshijan.workers.dev/doc/${pdf.slug}/`,
+    url: `https://bookswithsyro.alexgshijan.workers.dev/doc/${pdf.filename}/`,
     encodingFormat: "application/pdf",
     fileFormat: "application/pdf",
   })}
