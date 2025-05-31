@@ -5,52 +5,54 @@ import Footer from '../../components/Footer.astro';
 import FormattedDate from '../../components/FormattedDate.astro';
 
 const { slug } = Astro.params;
+
 const response = await fetch('https://pdf-archive.alexgshijan.workers.dev/api/pdfs');
+if (!response.ok) throw new Error('Failed to fetch PDF list');
+
 const pdfs = await response.json();
 const pdf = pdfs.find(p => p.filename === slug);
 
 if (!pdf) {
-  throw new Error('PDF not found');
+  return new Response('Not found', { status: 404 });
 }
 ---
-
 <!doctype html>
 <html lang="en">
-	<head>
-		<BaseHead title={pdf.title} description={pdf.description} />
-        <meta name="description" content={pdf.description} />
-        <meta name="keywords" content={pdf.tags?.join(', ')} />
-        <meta property="og:title" content={pdf.title} />
-        <meta property="og:description" content={pdf.description} />
-        <meta property="og:type" content="article" />
-        <meta property="og:url" content={`https://bookswithsyro.alexgshijan.workers.dev/doc/${pdf.filename}/`} />
-        <link rel="canonical" href={`https://bookswithsyro.alexgshijan.workers/doc/${pdf.filename}/`} />
-	</head>
-	<body>
-		<Header />
-		<main>
-			<h1>{pdf.title}</h1>
-			<p><FormattedDate date={new Date(pdf.pubDate)} /></p>
-			<p>{pdf.description}</p>
+  <head>
+    <BaseHead title={pdf.title} description={pdf.description} />
+    <meta name="description" content={pdf.description} />
+    <meta name="keywords" content={pdf.tags?.join(', ')} />
+    <meta property="og:title" content={pdf.title} />
+    <meta property="og:description" content={pdf.description} />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content={`https://bookswithsyro.alexgshijan.workers.dev/doc/${pdf.filename}/`} />
+    <link rel="canonical" href={`https://bookswithsyro.alexgshijan.workers.dev/doc/${pdf.filename}/`} />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <h1>{pdf.title}</h1>
+      <p><FormattedDate date={new Date(pdf.pubDate)} /></p>
+      <p>{pdf.description}</p>
       <iframe 
         src={pdf.url}
         width="100%" 
         height="800px" 
         style="border: none;">
       </iframe>
-		</main>
-		<Footer />
-<script type="application/ld+json" is:inline>
-  {JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": "CreativeWork",
-    name: pdf.title,
-    description: pdf.description,
-    datePublished: pdf.pubDate,
-    url: `https://bookswithsyro.alexgshijan.workers.dev/doc/${pdf.filename}/`,
-    encodingFormat: "application/pdf",
-    fileFormat: "application/pdf",
-  })}
-</script>
-	</body>
+    </main>
+    <Footer />
+    <script type="application/ld+json" is:inline>
+      {JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        name: pdf.title,
+        description: pdf.description,
+        datePublished: pdf.pubDate,
+        url: `https://bookswithsyro.alexgshijan.workers.dev/doc/${pdf.filename}/`,
+        encodingFormat: "application/pdf",
+        fileFormat: "application/pdf"
+      })}
+    </script>
+  </body>
 </html>
