@@ -46,17 +46,17 @@ const sorted = pdfs.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
         color: rgb(var(--gray));
         font-size: 0.85rem;
       }
+
+	.desc.truncated {
+        margin: 0 0 0.3rem 0;
+        color: rgb(var(--gray));
+        font-size: 0.95rem;
+      }
       .desc.full {
   display: none;
-  position: absolute;
-  background: white;
-  color: rgb(var(--black));
-  padding: 0.5rem;
-  border: 1px solid #ccc;
-  width: 300px;
-  z-index: 10;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-  white-space: normal;
+        margin: 0 0 0.3rem 0;
+        color: rgb(var(--gray));
+        font-size: 0.95rem;
 }
 
 li {
@@ -68,7 +68,7 @@ li:hover .desc.truncated {
 }
 
 li:hover .desc.full {
-  display: block;
+  display: inline;
 }
       @media (max-width: 720px) {
         ul li {
