@@ -41,21 +41,35 @@ const sorted = pdfs.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
         font-size: 1.2rem;
         color: rgb(var(--black));
       }
-      .desc {
-        margin: 0 0 0.3rem 0;
-        color: rgb(var(--gray));
-        font-size: 0.95rem;
-      }
       .date {
         margin: 0;
         color: rgb(var(--gray));
         font-size: 0.85rem;
       }
-      ul li a:hover h3,
-      ul li a:hover .desc,
-      ul li a:hover .date {
-        color: rgb(var(--accent));
-      }
+      .desc.full {
+  display: none;
+  position: absolute;
+  background: white;
+  color: rgb(var(--black));
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  width: 300px;
+  z-index: 10;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  white-space: normal;
+}
+
+li {
+  position: relative;
+}
+
+li:hover .desc.truncated {
+  display: none;
+}
+
+li:hover .desc.full {
+  display: block;
+}
       @media (max-width: 720px) {
         ul li {
           width: 100%;
@@ -72,7 +86,10 @@ const sorted = pdfs.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
           <li>
             <a href={`/doc/${pdf.filename}/`} title={pdf.description}>
               <h3>{pdf.title}</h3>
-              <p class="desc">{pdf.description.length > 35 ? pdf.description.slice(0, 30) + '…' : pdf.description}</p>
+              <p class="desc truncated">
+        {pdf.description.length > 35 ? pdf.description.slice(0, 30) + '…' : pdf.description}
+      </p>
+      <p class="desc full">{pdf.description}</p>
               <p class="date">
                 <FormattedDate date={new Date(pdf.pubDate)} />
               </p>
