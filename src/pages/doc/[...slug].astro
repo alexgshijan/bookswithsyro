@@ -34,8 +34,12 @@ const PDF_URL = `https://pub-a4150c2d14e34942a7eb22425be6bde0.r2.dev/${pdf.pdfFi
 			<h1>{pdf.title}</h1>
 			<p><FormattedDate date={new Date(pdf.pubDate)} /></p>
 			<p>{pdf.description}</p>
-			<iframe src={PDF_URL} width="100%" height="800"></iframe>
-			<p><a href={PDF_URL}>Download PDF</a></p>
+      <iframe 
+        src="/pdfjs/web/viewer.html?file={PDF_URL}" 
+        width="100%" 
+        height="800px" 
+        style="border: none;">
+      </iframe>
 		</main>
 		<Footer />
         <script type="application/ld+json">
@@ -45,7 +49,7 @@ const PDF_URL = `https://pub-a4150c2d14e34942a7eb22425be6bde0.r2.dev/${pdf.pdfFi
     "name": "{pdf.title}",
     "description": "{pdf.description}",
     "datePublished": "{pdf.pubDate}",
-    "url": "https://yourdomain.com/pdfs/{pdf.slug}/",
+    "url": "https://bookswithsyro.alexgshijan.workers.dev/pdfs/{pdf.slug}/",
     "encodingFormat": "application/pdf",
     "fileFormat": "application/pdf"
   }
