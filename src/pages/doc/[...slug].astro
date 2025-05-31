@@ -14,6 +14,7 @@ export async function getStaticPaths() {
 }
 
 const { pdf } = Astro.props;
+export const prerender = false;
 ---
 <!doctype html>
 <html lang="en">
