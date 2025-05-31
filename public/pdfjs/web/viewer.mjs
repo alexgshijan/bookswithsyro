@@ -16145,14 +16145,24 @@ initCom(PDFViewerApplication);
     if (!file) {
       return;
     }
-    const viewerOrigin = URL.parse(window.location)?.origin || "null";
-    if (HOSTED_VIEWER_ORIGINS.has(viewerOrigin)) {
-      return;
-    }
-    const fileOrigin = URL.parse(file, window.location)?.origin;
+  
+    const viewerOrigin = new URL(window.location.href).origin;
+    const fileOrigin = new URL(file, window.location.href).origin;
+  
+    // Always allow same-origin
     if (fileOrigin === viewerOrigin) {
       return;
     }
+  
+    // List of allowed external origins
+    const allowedOrigins = [
+      'https://pub-a4150c2d14e34942a7eb22425be6bde0.r2.dev',
+    ];
+  
+    if (allowedOrigins.includes(fileOrigin)) {
+      return;
+    }
+  
     const ex = new Error("file origin does not match viewer's");
     PDFViewerApplication._documentError("pdfjs-loading-error", {
       message: ex.message
