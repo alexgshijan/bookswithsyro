@@ -14,63 +14,73 @@ const sorted = pdfs.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
 
 <!doctype html>
 <html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-        		<style>
-			main {
-				width: 960px;
-			}
-			ul {
-				display: flex;
-				flex-wrap: wrap;
-				gap: 2rem;
-				list-style-type: none;
-				margin: 0;
-				padding: 0;
-			}
-			ul li {
-				width: calc(50% - 1rem);
-			}
-			ul li * {
-				text-decoration: none;
-				transition: 0.2s ease;
-			}
-
-			ul li a {
-				display: block;
-			}
-			.title {
-				margin: 0;
-				color: rgb(var(--black));
-				line-height: 1;
-			}
-			.date {
-				margin: 0;
-				color: rgb(var(--gray));
-			}
-			ul li a:hover h4,
-			ul li a:hover .date {
-				color: rgb(var(--accent));
-			}
-		</style>
-	</head>
-	<body>
-		<Header />
-		<main style="width: 960px; margin: 0 auto;">
-			<h1>Document Archive</h1>
-			<ul style="list-style: none; padding: 0;">
-				{sorted.map((pdf) => (
-					<li style="margin-bottom: 1.5rem;">
-						<a href={`/doc/${pdf.filename}/`} style="text-decoration: none;">
-							<h3 style="margin: 0; color: black;">{pdf.title}</h3>
-							<p style="margin: 0; color: gray;">
-								<FormattedDate date={new Date(pdf.pubDate)} />
-							</p>
-						</a>
-					</li>
-				))}
-			</ul>
-		</main>
-		<Footer />
-	</body>
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    <style>
+      main {
+        width: 960px;
+      }
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      ul li {
+        width: calc(50% - 1rem);
+      }
+      ul li a {
+        display: block;
+        text-decoration: none;
+        color: inherit;
+      }
+      h3 {
+        margin: 0 0 0.3rem 0;
+        font-size: 1.2rem;
+        color: rgb(var(--black));
+      }
+      .desc {
+        margin: 0 0 0.3rem 0;
+        color: rgb(var(--gray));
+        font-size: 0.95rem;
+      }
+      .date {
+        margin: 0;
+        color: rgb(var(--gray));
+        font-size: 0.85rem;
+      }
+      ul li a:hover h3,
+      ul li a:hover .desc,
+      ul li a:hover .date {
+        color: rgb(var(--accent));
+      }
+      @media (max-width: 720px) {
+        ul li {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <Header />
+    <main style="width: 960px; margin: 0 auto;">
+      <h1>Document Archive</h1>
+      <ul>
+        {sorted.map((pdf) => (
+          <li>
+            <a href={`/doc/${pdf.filename}/`} title={pdf.description}>
+              <h3>{pdf.title}</h3>
+              <p class="desc">{pdf.description.length > 80 ? pdf.description.slice(0, 77) + '…' : pdf.description}</p>
+              <p class="date">
+                <FormattedDate date={new Date(pdf.pubDate)} />
+              </p>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </main>
+    <Footer />
+  </body>
 </html>
