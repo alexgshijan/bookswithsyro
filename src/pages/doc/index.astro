@@ -72,7 +72,7 @@ const sorted = pdfs.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
           <li>
             <a href={`/doc/${pdf.filename}/`} title={pdf.description}>
               <h3>{pdf.title}</h3>
-              <p class="desc">{pdf.description.length > 80 ? pdf.description.slice(0, 77) + '…' : pdf.description}</p>
+              <p class="desc">{pdf.description.length > 35 ? pdf.description.slice(0, 30) + '…' : pdf.description}</p>
               <p class="date">
                 <FormattedDate date={new Date(pdf.pubDate)} />
               </p>
