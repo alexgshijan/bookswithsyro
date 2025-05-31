@@ -4,17 +4,16 @@ import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import FormattedDate from '../../components/FormattedDate.astro';
 
-const { slug } = Astro.params;
-
-const response = await fetch('https://pdf-archive.alexgshijan.workers.dev/api/pdfs');
-if (!response.ok) throw new Error('Failed to fetch PDF list');
-
-const pdfs = await response.json();
-const pdf = pdfs.find(p => p.filename === slug);
-
-if (!pdf) {
-  return new Response('Not found', { status: 404 });
+export async function getStaticPaths() {
+  const response = await fetch('https://pdf-archive.alexgshijan.workers.dev/api/pdfs');
+  const pdfs = await response.json();
+  return pdfs.map((pdf) => ({
+    params: { slug: pdf.filename },
+    props: { pdf },
+  }));
 }
+
+const { pdf } = Astro.props;
 ---
 <!doctype html>
 <html lang="en">
