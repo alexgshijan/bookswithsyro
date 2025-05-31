@@ -52,25 +52,11 @@ const sorted = pdfs.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
         color: rgb(var(--gray));
         font-size: 0.95rem;
       }
-      .desc.full {
-  display: none;
-        margin: 0 0 0.3rem 0;
-        color: rgb(var(--gray));
-        font-size: 0.95rem;
-}
 
 li {
   position: relative;
 }
-
-li:hover .desc.truncated {
-  display: none;
-}
-
-li:hover .desc.full {
-  display: inline;
-}
-      @media (max-width: 720px) {
+    @media (max-width: 720px) {
         ul li {
           width: 100%;
         }
@@ -87,9 +73,8 @@ li:hover .desc.full {
             <a href={`/doc/${pdf.filename}/`} title={pdf.description}>
               <h3>{pdf.title}</h3>
               <p class="desc truncated">
-        {pdf.description.length > 35 ? pdf.description.slice(0, 30) + '…' : pdf.description}
+        {pdf.description.length > 70 ? pdf.description.slice(0, 67) + '…' : pdf.description}
       </p>
-      <p class="desc full">{pdf.description}</p>
               <p class="date">
                 <FormattedDate date={new Date(pdf.pubDate)} />
               </p>
