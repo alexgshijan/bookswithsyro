@@ -6,27 +6,30 @@ import FormattedDate from '../../components/FormattedDate.astro';
 
 const SITE_TITLE = 'PDF Archive';
 const SITE_DESCRIPTION = 'A searchable archive of public PDFs';
+
+const response = await fetch('https://pdf-archive.alexgshijan.workers.dev/api/pdfs?ts=${Date.now()}');
+const pdfs = await response.json();
+const sorted = pdfs.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
 ---
 
+<!doctype html>
 <html lang="en">
   <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
     <style>
       main {
         width: 960px;
-        margin: 0 auto;
       }
       ul {
         display: flex;
         flex-wrap: wrap;
         gap: 2rem;
-        list-style: none;
+        list-style-type: none;
         margin: 0;
         padding: 0;
       }
       ul li {
         width: calc(50% - 1rem);
-        position: relative;
       }
       ul li a {
         display: block;
@@ -36,19 +39,24 @@ const SITE_DESCRIPTION = 'A searchable archive of public PDFs';
       h3 {
         margin: 0 0 0.3rem 0;
         font-size: 1.2rem;
-        color: rgb(0,0,0);
+        color: rgb(var(--black));
       }
       .date {
         margin: 0;
-        color: rgb(128,128,128);
+        color: rgb(var(--gray));
         font-size: 0.85rem;
       }
-      .desc.truncated {
+
+	.desc.truncated {
         margin: 0 0 0.3rem 0;
-        color: rgb(128,128,128);
+        color: rgb(var(--gray));
         font-size: 0.95rem;
       }
-      @media (max-width: 720px) {
+
+li {
+  position: relative;
+}
+    @media (max-width: 720px) {
         ul li {
           width: 100%;
         }
@@ -57,74 +65,23 @@ const SITE_DESCRIPTION = 'A searchable archive of public PDFs';
   </head>
   <body>
     <Header />
-    <main>
+    <main style="width: 960px; margin: 0 auto;">
       <h1>Document Archive</h1>
-
-      <script type="module">
-        import { onMount } from 'astro/client';
-
-        let pdfs = [];
-        let container = null;
-
-        onMount(async () => {
-          try {
-            const res = await fetch('https://pdf-archive.alexgshijan.workers.dev/api/pdfs?ts=' + Date.now());
-            if (!res.ok) throw new Error('Failed to fetch PDFs');
-            pdfs = await res.json();
-            pdfs.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
-
-            const ul = document.createElement('ul');
-            pdfs.forEach(pdf => {
-              const li = document.createElement('li');
-              li.style.width = 'calc(50% - 1rem)';
-              li.style.position = 'relative';
-
-              const a = document.createElement('a');
-              a.href = `/doc/${pdf.filename}/`;
-              a.title = pdf.description;
-              a.style.display = 'block';
-              a.style.textDecoration = 'none';
-              a.style.color = 'inherit';
-
-              const h3 = document.createElement('h3');
-              h3.textContent = pdf.title;
-              h3.style.margin = '0 0 0.3rem 0';
-              h3.style.fontSize = '1.2rem';
-              h3.style.color = 'rgb(0,0,0)';
-
-              const pDesc = document.createElement('p');
-              pDesc.textContent = pdf.description.length > 70 ? pdf.description.slice(0, 67) + '…' : pdf.description;
-              pDesc.style.margin = '0 0 0.3rem 0';
-              pDesc.style.color = 'rgb(128,128,128)';
-              pDesc.style.fontSize = '0.95rem';
-
-              const pDate = document.createElement('p');
-              pDate.style.margin = '0';
-              pDate.style.color = 'rgb(128,128,128)';
-              pDate.style.fontSize = '0.85rem';
-              const date = new Date(pdf.pubDate);
-              pDate.textContent = date.toLocaleDateString();
-
-              a.appendChild(h3);
-              a.appendChild(pDesc);
-              a.appendChild(pDate);
-              li.appendChild(a);
-              ul.appendChild(li);
-            });
-
-            container.innerHTML = '';
-            container.appendChild(ul);
-          } catch (e) {
-            container.textContent = 'Failed to load PDFs.';
-            console.error(e);
-          }
-        });
-      </script>
-
-      <div id="pdf-container" ref={el => container = el}>
-        Loading PDFs…
-      </div>
-
+      <ul>
+        {sorted.map((pdf) => (
+          <li>
+            <a href={`/doc/${pdf.filename}/`} title={pdf.description}>
+              <h3>{pdf.title}</h3>
+              <p class="desc truncated">
+        {pdf.description.length > 70 ? pdf.description.slice(0, 67) + '…' : pdf.description}
+      </p>
+              <p class="date">
+                <FormattedDate date={new Date(pdf.pubDate)} />
+              </p>
+            </a>
+          </li>
+        ))}
+      </ul>
     </main>
     <Footer />
   </body>
