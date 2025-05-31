@@ -7,9 +7,26 @@ import FormattedDate from '../../components/FormattedDate.astro';
 const SITE_TITLE = 'PDF Archive';
 const SITE_DESCRIPTION = 'A searchable archive of public PDFs';
 
-const response = await fetch(`https://pdf-archive.alexgshijan.workers.dev/api/pdfs?ts=${Date.now()}`);
-const pdfs = await response.json();
-const sorted = pdfs.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
+let pdfs = [];
+
+try {
+  const response = await fetch(`https://pdf-archive.alexgshijan.workers.dev/api/pdfs?ts=${Date.now()}`);
+
+  const text = await response.text();
+
+  try {
+    pdfs = JSON.parse(text);
+  } catch {
+    console.error('API did not return valid JSON:', text);
+    // fallback or throw an error with context
+    throw new Error('API response invalid JSON');
+  }
+  
+} catch (e) {
+  console.error('Failed to fetch PDFs:', e);
+  // Return empty list or a user-friendly error page
+  pdfs = [];
+}
 export const prerender = false;
 ---
 
