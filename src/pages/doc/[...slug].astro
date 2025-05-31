@@ -35,7 +35,7 @@ if (!pdf) {
       <p><FormattedDate date={new Date(pdf.pubDate)} /></p>
       <p>{pdf.description}</p>
       <iframe 
-        src={pdf.url}
+        src={`/pdfjs/web/viewer.html?file=${encodeURIComponent(pdf.url)}`}
         width="100%" 
         height="800px" 
         style="border: none;">
