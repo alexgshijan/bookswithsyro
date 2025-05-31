@@ -1,4 +1,6 @@
 ---
+export const prerender = false;
+
 import BaseHead from '../../components/BaseHead.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
@@ -27,7 +29,8 @@ try {
   // Return empty list or a user-friendly error page
   pdfs = [];
 } 
-export const prerender = false;
+
+
 ---
 
 <!doctype html>
