@@ -1,7 +1,7 @@
 ---
 title: "Initial Introduction"
 description: "The first blog post: an introduction to what I'm aiming towards and how you can help."
-pubDate: "Apr 14 2025"
+pubDate: "June 1 2025"
 heroImage: "/blog-placeholder-2.jpg"
 ---
 
@@ -19,15 +19,15 @@ I want to build a document archive — something akin to the Malankara Library �
 So far, I’ve set up a frontend (this website) and configured a D2 bucket to store files.  
 The next step is to build a system for managing uploads (restricted to myself and specific admin accounts). The idea is to create a workflow where a file is:
 
-- Uploaded
-- Metadata is added (category, description, tags/keywords)
-- Watermarked (if necessary)
-- Stored securely in the bucket
-- Referenced through an updated JSON index
+- ~~Uploaded~~ Completed
+- ~~Metadata is added (category, description, tags/keywords)~~ Completed, though I still need to actually put this to use. Currently the "Category" serves no function.
+- ~~Watermarked (if necessary)~~ Concluded that this was uneccesary
+- ~~Stored securely in the bucket~~ Completed
+- ~~Referenced through an updated JSON index~~ Decided that working with a D1 SQL database was a bit more within my scope as something that I had experience with working with on an actual large scale application
 
 I'm also exploring the possibility of automating metadata tagging using AI or OCR — something worth experimenting with.
 
-After that, I’ll focus on developing a proper search index and setting up a browsable library, organized neatly by category or topic.
+After that, I’ll focus on developing a proper search index and ~~setting up a browsable library, organized neatly by category or topic.~~ (Completed)
 
 ## How You Can Help
 
@@ -41,8 +41,8 @@ In the future, once the archive is more developed, I may open up more ways for t
 
 ## Upcoming Milestones
 
-- Launching the upload and metadata management system  
-- Uploading the first batch of documents  
+- ~~Launching the upload and metadata management system~~ Completed
+- ~~Uploading the first batch of documents~~ Completed  
 - Developing basic search functionality  
 - Opening a feedback form for improvements  
 
