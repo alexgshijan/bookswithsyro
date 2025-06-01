@@ -73,7 +73,7 @@ li {
             <a href={`/doc/${pdf.filename}/`} title={pdf.description}>
               <h3>{pdf.title}</h3>
               <p class="desc truncated">
-        {pdf.description.length > 70 ? pdf.description.slice(0, 67) + '…' : pdf.description}
+        {pdf.description.length > 140 ? pdf.description.slice(0, 130) + '…' : pdf.description}
       </p>
               <p class="date">
                 <FormattedDate date={new Date(pdf.pubDate)} />
