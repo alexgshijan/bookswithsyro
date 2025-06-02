@@ -16,7 +16,7 @@ I want to build a document archive — something akin to the Malankara Library �
 
 ## Current Progress and Future Plans
 
-So far, I’ve set up a frontend (this website) and configured a D2 bucket to store files.  
+So far, I’ve set up a frontend (this website) and configured a D2 bucket to store files. I'm currently limited to working with 10GB buckets to avoid any excess costs. Having said that my system is modular enough that it can work off of multiple R2 buckets. I still need to find if Cloudflare charges based off of each individual bucket or all buckets together. If it is the former then I could stack this system ad infinitum, if it's the latter then this will fall apart as soon as I go over 10GB. The rate for 1GB (beyond the 10GB limit) is 0.15$ per month. Realistically if I can get some crowd funding going, it wouldn't be an issue. 
 The next step is to build a system for managing uploads (restricted to myself and specific admin accounts). The idea is to create a workflow where a file is:
 
 - ~~Uploaded~~ Completed
