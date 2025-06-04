@@ -1,8 +1,8 @@
 ---
 title: "What are the Divine Praises?"
 description: "A look into what the divine praises are and a call to renew this in the lives of the laity."
-pubDate: "Apr 28 2025"
-heroImage: "/blog-placeholder-about2.png"
+pubDate: "Jun 5 2025"
+heroImage: "/loth.png"
 ---
 
 There are many elements that make up the life and constitution of a Church: its creed, sacraments, life of charity and mission, leadership, history, and much more. But all of its various aspects point to its ultimate goal, which is the union with God we call prayer. There are, of course, many kinds of prayer, esppecially on the part of an individual member of a Church, but if one were to ask what is *the* prayer *of* any given apostolic Church taken collectively, the answer would in every case be its liturgy of the hours. Every evening, morning, and other times of the day, the Church officially and formally gathers and sings it's praises to God in the tradition it has developed from its earliest beginnings. These are the Divine Praises: the Church's heartbeat; the way it expresses its life from moment to moment.
