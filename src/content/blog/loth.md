@@ -13,7 +13,7 @@ In the Church of the East,[^1] the new liturgical day begins not at midnight or 
 
 These three prayer times, Evening, [ Night, ] and Morning, make up what is called the "Cathedral" set of prayers, which were designed for the life of everyday faithful to attend at their local parish church. Indeed there is a legislation requiring the faithful to attend these prayers as early as the first Synod of the Church of the East in 410AD.[^4] This is, in fact, one of the remarkable aspects of the liturgy of the hours of the Church of the East in particular, that to a great degree it is intended to be part of the life of all the members of the Church, not only clergy and monks.[^5]
 
--- Excerpt from Andrew Younan, *The Book of Before & After*, vii-
+-- Excerpt from Andrew Younan, *The Book of Before & After*, vii-x
 
 **For Christ and His Church**,  
 Alex George Shijan  
