@@ -24,7 +24,7 @@ This idea of continuous prayer is only emphasised by the fact that around the wo
 
 The Divine Praises aren’t just a set of daily prayers—they are shaped by the seasons of the liturgical year. Each liturgical season introduces specific psalms, hymns, and readings tied to key moments in salvation history: the angel's annunciation to Mary, the birth of Christ, his baptism, his battle with the devil in the desert, his passion, death, resurrection, and ascension, the descent of the Holy Spirit, the preaching of the Apostles, the repentance of the nations, the victory of the cross and the final crowning of the Church in heavenly glory. Year after year, the Church invites us to be absorbed not only into our own lives and concerns, but more and more into the life of Christ, so that we can live with eyes open to a larger world, where God's salvation is the focus. These aren’t abstract commemorations. They are invitations to reorder your time, attention, and affections around the events that define the Christian faith.
 
-As the Church cycles through these seasons, we’re drawn again and again into the life of Christ. You’re reminded that your life isn’t just your own; it’s being caught up into something much larger. The Divine Praises, tied to specific hours and to the rhythm of the liturgical calendar, hold that memory in place.
+ The Divine Praises, tied to specific hours and to the rhythm of the liturgical calendar, hold that memory in place. It allows us to come together as a community, displaced as we are, to celebrate our day, give thanks to God and sanctify time itself. These Divine Praises allow us to transform our days into prayers to God.
 
 This is why they are, and remain, the heartbeat of the Syro-Malabar Church.
 
