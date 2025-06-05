@@ -30,6 +30,7 @@ Alex George Shijan
 (Almost) Seminarian, Eparchy of Great Britain  
 Syro-Malabar Catholic Church
 
+---
 [^1]: This is what we refer to as the Chaldean or "East-Syriac" heritage of the Syro-Malabar Church
 [^2]: Hence why we read the Gospel and Epistle, respectively, of the next day in Ramsa and Lelya.
 [^3]: Bible quote taken from RSV
