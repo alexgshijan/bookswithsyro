@@ -21,7 +21,7 @@ This is seen explicitly by delving into the theology of Lelya (Night), Qala d-Sh
 
 What we can take away from this is the idea that the prayer started in Lelya does not conclude with Lelya but forms a continuous prayer until the morning. With prayer being the last thing on our tongue before sleep and the first thing following our sleep, even our resting is transformed into a prayer to God. This is the ultimate goal we strive to achieve here on the earth, to be in continious union with God, "[this] union with God we call prayer".
 
-This idea of continous prayer is only made more empasised by the idea that around the world different communities exist - while the vast majority live in India itself, the eparchies of Great Britain, Australia, US, and Canada and the Apostolic Visitation of Europe host thousands of Syro-Malabar faithful - who are joined together in this liturgical hours at local times.
+This idea of continous prayer is only made more empasised by the idea that around the world different communities exist - while the vast majority live in India itself, the eparchies of Great Britain, Australia, US, and Canada and the Apostolic Visitation of Europe host thousands of Syro-Malabar faithful - who are joined together in these liturgical hours at local times.
 
 Add conclusion paragraph
 
