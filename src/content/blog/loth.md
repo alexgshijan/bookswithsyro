@@ -23,7 +23,9 @@ What we can take away from this is the idea that the prayer started in Lelya doe
 
 This idea of continuous prayer is only emphasised by the fact that around the world, different communities exist—while the vast majority live in India itself, the eparchies of Great Britain, Australia, the US, and Canada, and the Apostolic Visitation of Europe host thousands of Syro-Malabar faithful—who are joined together in these liturgical hours at local times.
 
-Add conclusion paragraph
+Add conclusion paragraph, talk about season specific prayers, reference the following paragraph,return back to main phrase "The heartbeat of the Syro-Malabar Church"
+
+"Similarly, the liturgical year cycles through salvation history over and over again, commemorating the angel's annunciation to Mary, the birth of Christ, his baptism, his battle with the devil in the desert, his passion, death, resurrection, and ascension, the descent of the Holy Spirit, the preaching of the Apostles, the repentance of the nations, the victory of the cross and the final crowning of the Church in heavenly glory. Year after year, the Church invites us to be absorbed not only into our own lives and concerns, but more and more into the life of Christ, so that we can live with eyes open to a larger world, where God's salvation is the focus."
 
 **For Christ and His Church**,  
 Alex George Shijan  
