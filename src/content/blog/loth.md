@@ -40,4 +40,4 @@ Syro-Malabar Catholic Church
 [^4]: The Second Session of the XXX Synod of the Syro-Malabar Church approved a text that added Lelya to this list of major hours on the Feast of Denaha in January 2023. This was followed by an exhortation via circular from the then Major Archbishop of the Syro Malabar Church, Cardinal George Allencherry, that "[The Divine Praises] should be recited at the cathedrals and in the churches every day especially on Sundays and on the days of obligation as per the directives of Canon Law (CCEO c.199 §2)," on February 5, 2023.
 [^5]: See Jean-Baptiste Chabot, *Synodicon*, 28-29
 [^6]: See Robert Taft, *The Liturgy of the Hours in East and West*, 225-226
-[^7]: See POPE PAUL VI, *SACROSANCTUM CONCILIUM*, Paragraph 83-101, with acknowledgement of Paragraph 3
+[^7]: See POPE PAUL VI, *SACROSANCTUM CONCILIUM*, Paragraph 86, with acknowledgement of Paragraph 3
