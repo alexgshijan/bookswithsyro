@@ -46,6 +46,11 @@ const sorted = pdfs.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
         color: rgb(var(--gray));
         font-size: 0.85rem;
       }
+      ul li a:hover h3,
+      ul li a:hover .desc.truncated
+			ul li a:hover .date {
+				color: rgb(var(--accent));
+			}
 
 	.desc.truncated {
         margin: 0 0 0.3rem 0;
