@@ -5,7 +5,7 @@ pubDate: "Apr 28 2025"
 heroImage: "/about.png"
 ---
 
-TBC 
+TBC  
 
 **For Christ and His Church**,  
 Alex George Shijan  
