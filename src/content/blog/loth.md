@@ -26,11 +26,6 @@ The Divine Praises aren’t just a set of daily prayers—they are shaped by the
 
 This is why they are, and remain, the heartbeat of the Syro-Malabar Church.
 
-**For Christ and His Church**,  
-Alex George Shijan  
-(Almost) Seminarian, Eparchy of Great Britain  
-Syro-Malabar Catholic Church
-
 ---
 [^1]: Adapted from Andrew Younan, *The Book of Before & After*, vii-x
 [^2]: This is what we refer to as the Chaldean or "East-Syriac" heritage of the Syro-Malabar Church

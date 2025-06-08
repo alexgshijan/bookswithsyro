@@ -6,8 +6,3 @@ heroImage: "/about.png"
 ---
 
 TBC  
-
-**For Christ and His Church**,  
-Alex George Shijan  
-(Almost) Seminarian, Eparchy of Great Britain  
-Syro-Malabar Catholic Church
