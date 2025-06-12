@@ -1,7 +1,7 @@
 ---
 title: "What are the Divine Praises?"
 description: "A look into what the divine praises are and a call to renew this in the lives of the laity."
-pubDate: "Jun 5 2025"
+pubDate: "Jun 15 2025"
 heroImage: "/loth.png"
 author: alexgshijan
 ---
