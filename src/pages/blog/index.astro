@@ -3,12 +3,26 @@ import BaseHead from '../../components/BaseHead.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../../consts';
-import { getCollection } from 'astro:content';
+import { getCollection, getEntry } from 'astro:content';
 import FormattedDate from '../../components/FormattedDate.astro';
 
-const posts = (await getCollection('blog')).sort(
-	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+const rawPosts = await getCollection('blog');
+
+const posts = await Promise.all(
+	rawPosts.map(async (post) => {
+		const authorEntry = post.data.author
+			? await getEntry('authors', post.data.author)
+			: null;
+
+		return {
+			...post,
+			author: authorEntry?.data ?? null,
+		};
+	})
 );
+
+// Sort with dates
+posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
 
 <!doctype html>
@@ -97,7 +111,7 @@ const posts = (await getCollection('blog')).sort(
 									<img width={720} height={360} src={post.data.heroImage} alt="" />
 									<h4 class="title">{post.data.title}</h4>
 									<p class="date">
-										<FormattedDate date={post.data.pubDate} /> · {author.name}
+										<FormattedDate date={post.data.pubDate} /> · {post.author.name}
 									</p>
 								</a>
 							</li>
