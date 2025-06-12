@@ -30,7 +30,7 @@ const { post, author } = Astro.props;
 const { Content } = await render(post);
 ---
 
-<BlogPost {...post.data}>
+<BlogPost {...post.data} author={author}>
 	<Content />
 		{author ? (
 			<>
