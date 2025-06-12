@@ -1,7 +1,7 @@
 ---
 title: "LoTHs Tunes"
 description: "A sample selections on tunes usable with the English Divine Praises, incluing page references"
-pubDate: "Apr 28 2025"
+pubDate: "June 12 2025"
 heroImage: "/loth-guide.png"
 author: alexgshijan
 ---

@@ -1,7 +1,7 @@
 ---
 title: "LoTHs Guide"
 description: "A How-To Guide on the Divine Praises"
-pubDate: "Apr 28 2025"
+pubDate: "June 12 2025"
 heroImage: "/loth-guide.png"
 author: alexgshijan
 ---
