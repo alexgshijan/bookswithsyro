@@ -14,7 +14,7 @@ export async function getStaticPaths() {
 				: null;
 
 			return {
-				params: { slug: post.id },
+				params: { slug: post.slug },
 				props: {
 					post,
 					author: authorEntry?.data ?? null,
