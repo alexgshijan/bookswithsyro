@@ -1,31 +1,48 @@
 ---
 import { type CollectionEntry, getCollection, getEntry } from 'astro:content';
 import BlogPost from '../../layouts/BlogPost.astro';
-import { render } from 'astro:content';
 import Signature from '../../components/Signature.astro';
+import { render } from 'astro:content';
 
 export async function getStaticPaths() {
 	const posts = await getCollection('blog');
-	return posts.map((post) => ({
-		params: { slug: post.id },
-		props: post,
-	}));
+
+	// Resolve authors up front
+	const paths = await Promise.all(
+		posts.map(async (post) => {
+			const authorEntry = post.data.author
+				? await getEntry('authors', post.data.author)
+				: null;
+
+			return {
+				params: { slug: post.id },
+				props: {
+					post,
+					author: authorEntry?.data ?? null,
+				},
+			};
+		})
+	);
+
+	return paths;
 }
-type Props = CollectionEntry<'blog'>;
 
-const post = Astro.props;
+const { post, author } = Astro.props;
 const { Content } = await render(post);
-
-const authorEntry = await getEntry('authors', post.data.author);
-const author = authorEntry?.data;
 ---
 
 <BlogPost {...post.data}>
 	<Content />
 	<Signature>
-			<strong>{author.tag}</strong>,<br />
-			{author.name},<br />
-			{author.role},<br />
-			{author.organisation}
+		{author ? (
+			<>
+				<strong>{author.tag}</strong>,<br />
+				{author.name},<br />
+				{author.role},<br />
+				{author.organisation}
+			</>
+		) : (
+			<em>Author info missing</em>
+		)}
+	</Signature>
 </BlogPost>
-
