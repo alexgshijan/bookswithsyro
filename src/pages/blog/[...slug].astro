@@ -15,10 +15,20 @@ type Props = CollectionEntry<'blog'>;
 
 const post = Astro.props;
 const { Content } = await render(post);
+
+const authorId = post.data.author;
+const author = await getEntryBySlug('authors', authorId);
+const { Content: AuthorSignature } = await render(author);
 ---
 
 <BlogPost {...post.data}>
 	<Content />
 	<Signature>
+		{author && (
+			<strong>{author.tag}</strong>,<br />
+			{author.name},<br />
+			{author.role},<br />
+			{author.organisation}
+	)}
 </BlogPost>
 

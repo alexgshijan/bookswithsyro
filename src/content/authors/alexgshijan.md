@@ -1,0 +1,7 @@
+---
+id: alexgshijan
+tag: For Christ and His Church
+name: Alex George Shijan
+role: (Almost) Seminarian, Eparchy of Great Britain
+organisation: Syro-Malabar Catholic Church
+---

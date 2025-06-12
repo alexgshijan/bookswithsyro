@@ -3,6 +3,7 @@ title: "What are the Divine Praises?"
 description: "A look into what the divine praises are and a call to renew this in the lives of the laity."
 pubDate: "Jun 5 2025"
 heroImage: "/loth.png"
+author: alexgshijan
 ---
 I recently found myself a copy of Andrew Younan's *The Book of Before & After*, a translation of the Church of The East[^1] Liturgies of the Hours (Divine Praises). The following is an adaptation of pages vii-x including my own reflection and conclusion.
 
