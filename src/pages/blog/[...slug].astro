@@ -1,7 +1,6 @@
 ---
 import { type CollectionEntry, getCollection, getEntry } from 'astro:content';
 import BlogPost from '../../layouts/BlogPost.astro';
-import Signature from '../../components/Signature.astro';
 import { render } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -33,7 +32,6 @@ const { Content } = await render(post);
 
 <BlogPost {...post.data}>
 	<Content />
-	<Signature>
 		{author ? (
 			<>
 				<strong>{author.tag}</strong>,<br />
@@ -44,5 +42,4 @@ const { Content } = await render(post);
 		) : (
 			<em>Author info missing</em>
 		)}
-	</Signature>
 </BlogPost>
