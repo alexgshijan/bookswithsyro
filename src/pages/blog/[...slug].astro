@@ -35,9 +35,9 @@ const { Content } = await render(post);
 		{author ? (
 			<>
 				<strong>{author.tag}</strong>,<br />
-				{author.name},<br />
-				{author.role},<br />
-				{author.organisation}.
+				{author.name}<br />
+				{author.role}<br />
+				{author.organisation}
 			</>
 		) : (
 			<em>Author info missing</em>
