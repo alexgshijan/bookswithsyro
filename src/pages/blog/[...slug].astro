@@ -24,11 +24,9 @@ const { Content: AuthorSignature } = await render(author);
 <BlogPost {...post.data}>
 	<Content />
 	<Signature>
-		{author && (
 			<strong>{author.tag}</strong>,<br />
 			{author.name},<br />
 			{author.role},<br />
 			{author.organisation}
-	)}
 </BlogPost>
 
