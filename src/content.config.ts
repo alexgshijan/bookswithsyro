@@ -23,6 +23,7 @@ const authors = defineCollection({
     tag: z.string(),
     role: z.string(),
     organisation: z.string(),
+    plug: z.string(),
   }),
 });
 

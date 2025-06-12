@@ -35,7 +35,7 @@ const { Content } = await render(post);
 		{author ? (
 			<>
 				<strong>{author.tag}</strong>,<br />
-				{author.name}<br />
+				<a href={author.plug}>{author.name}</a><br />
 				{author.role}<br />
 				{author.organisation}
 			</>
