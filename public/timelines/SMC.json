@@ -1,5 +1,7 @@
 {
-    "title": "Timeline of the Syro-Malabar Church from Origin to Date",
+    "title": {
+        "text": "Timeline of the Syro-Malabar Church from Origin to Date"
+        },
     "eras": [
         {
             "text": "Church of Hendo",
@@ -35,8 +37,7 @@
                 "year": 1599,
                 "month": 5,
                 "day": 20
-            },
-            "unique_id": "synod-of-diamper"
+            }
         }
     ]
 }
