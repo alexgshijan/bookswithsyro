@@ -1,10 +1,15 @@
 {
     "title": {
-        "text": "Timeline of the Syro-Malabar Church from Origin to Date"
-        },
+        "text":{
+            "headline": "Timeline of the Syro-Malabar Church from Origin to Date",
+            "text": "Including relevant sources and additional key events"
+        }
+    },
     "eras": [
         {
-            "text": "Church of Hendo",
+            "text": {
+                "headline": "Church of Hendo"
+            },
             "start_date": {
                 "year": 1500,
                 "month": 1, 
@@ -17,7 +22,9 @@
             }
         },
         {
-            "text": "Church under Latin Authority",
+            "text": {
+                "headline": "Church under Latin Authority"
+            },
             "start_date": {
                 "year": 1500,
                 "month": 1, 
@@ -32,7 +39,9 @@
     ],
     "events": [
         {
-            "text": "Synod of Diamper",
+            "text": {
+                "headline": "Synod of Diamper"
+            },
             "start_date": {
                 "year": 1599,
                 "month": 5,
