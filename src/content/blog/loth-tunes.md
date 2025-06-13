@@ -2,7 +2,7 @@
 title: "LoTHs Tunes (Incomplete)"
 description: "A sample selections on tunes usable with the English Divine Praises, incluing page references"
 pubDate: "June 12 2025"
-heroImage: "/blog-placeholder-4.jpg"
+heroImage: "/images/blog-placeholder-4.jpg"
 author: alexgshijan
 ---
 
