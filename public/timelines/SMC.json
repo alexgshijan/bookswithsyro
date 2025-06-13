@@ -2,7 +2,11 @@
     "title": {
         "text":{
             "headline": "Timeline of the Syro-Malabar Church from Origin to Date",
-            "text": "Including relevant sources and additional key events"
+            "text": "Including relevant sources and additional key events",
+            "media": {
+                "url": "/images/1749844957984-a709eb8d-0034-4721-b7e9-bcf1233a5381_1.png",
+                "caption": "(Unofficial) Flag of the Syro-Malabar Church"
+            }
         }
     },
     "eras": [
@@ -19,10 +23,6 @@
                 "year": 1500,
                 "month": 1,
                 "day": 1
-            },
-            "media": {
-                "url": "https://bookswithsyro.alexgshijan.workers.dev/images/1749844957984-a709eb8d-0034-4721-b7e9-bcf1233a5381_1.png",
-                "caption": "(Unofficial) Flag of the Syro-Malabar Church"
             }
         },
         {
