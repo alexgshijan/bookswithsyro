@@ -13,6 +13,6 @@ author: alexgshijan
         <div id='timeline-embed' style="width: 100%; height: 600px"></div>
         <script type="text/javascript">
             timeline = new TL.Timeline('timeline-embed',
-            'https://docs.google.com/spreadsheets/d/1cWqQBZCkX9GpzFtxCWHoqFXCHg-ylTVUWlnrdYMzKUI/pubhtml');
+            '/timelines/SMC.json');
         </script>
 <br>
