@@ -1,5 +1,5 @@
 ---
-title: "Brief Timeline of the Syro-Malabar Church from Origin to Date (Incomplete)"
+title: "Interactive Timeline of the Syro-Malabar Church from Origin to Date (Incomplete)"
 description: "A brief look at key stats of the Syro-Malabar Church from Origin to Date."
 pubDate: "Apr 28 2025"
 heroImage: "/blog-placeholder-5.jpg"
