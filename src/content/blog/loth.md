@@ -1,11 +1,11 @@
 ---
-title: "What are the Divine Praises?"
-description: "A look into  the divine praises, the importance of it in our church tradition & a call for renewal in the lives of the laity."
+title: "What are the Liturgy of The Hours (Divine Praises)?"
+description: "A look into the divine praises (Liturgy of The Hours), the importance of it in our church tradition & a call for renewal in the lives of the laity."
 pubDate: "Jun 15 2025"
 heroImage: "/images/loth.png"
 author: alexgshijan
 ---
-I recently found myself a copy of Andrew Younan's *The Book of Before & After*, a translation of the Church of The East[^1] Liturgies of the Hours (Divine Praises). The following is an adaptation of pages vii-x including my own reflection and thoughts.
+I recently found myself a copy of Andrew Younan's *The Book of Before & After*, a translation of the Church of The East[^1] Liturgy of the Hours (Divine Praises). The following is an adaptation of pages vii-x including my own reflection and thoughts.
 
 There are many elements that make up the life and constitution of a Church: its creed, sacraments, life of charity and mission, leadership, history, culture, and much more. But all of its various aspects point to its ultimate goal, which is the union with God we call prayer. There are, of course, many kinds of prayer and devotions, especially on the part of an individual member of a Church, but if one were to ask what is *the* prayer *of any* given apostolic Church taken collectively, the answer would in every case be its Divine Praises. Every evening, morning, and other times of the day, the Church officially and formally gathers and sings its praises to God in the tradition it has developed from its earliest beginnings. These are the Divine Praises: the Church's heartbeat; the way it expresses its life from moment to moment.
 
