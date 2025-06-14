@@ -48,8 +48,13 @@
             },
             "start_date": {
                 "year": 1599,
-                "month": 5,
+                "month": 6,
                 "day": 20
+            },
+            "end_date": {
+                "year": 1600,
+                "month": 6,
+                "day": 26
             }
         }
     ]
