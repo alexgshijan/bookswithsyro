@@ -1,5 +1,5 @@
 ---
-title: "What are the Liturgy of The Hours (Divine Praises)?"
+title: "What are the Liturgy of The Hours?"
 description: "A look into the divine praises (Liturgy of The Hours), the importance of it in our church tradition & a call for renewal in the lives of the laity."
 pubDate: "Jun 15 2025"
 heroImage: "/images/loth.png"
