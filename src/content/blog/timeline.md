@@ -10,13 +10,11 @@ This project draws heavily on *The Roots - The History of the Syro-Malabar Churc
 
 *From its humble beginnings in the first century AD to its present-day status as a vibrant and dynamic community, this book offers a comprehensive understanding of this remarkable church's development while fostering a deeper understanding of the shared roots and diverse expressions of the St. Thomas Christian faith. "The Roots - The History of the Syro-Malabar Church" is not merely a historical account but also a celebration of the enduring faith and resilience of a people who have preserved their unique identity while embracing the modern world.*
 
-        <link title="timeline-styles" rel="stylesheet" 
-              href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
-        <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js">
-        </script>
-        <div id='timeline-embed' style="width: 100%; height: 600px"></div>
-        <script type="text/javascript">
-            timeline = new TL.Timeline('timeline-embed',
-            '/timelines/SMC.json');
-        </script>
+Estimated Completion date is around Septemeber, please bear with me
+
+
+<link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+<script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+<div id='timeline-embed' style="width: 100%; height: 600px"></div>
+<script type="text/javascript"> timeline = new TL.Timeline('timeline-embed', '/timelines/SMC.json');</script>
 <br>
