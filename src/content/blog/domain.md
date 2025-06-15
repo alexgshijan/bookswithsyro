@@ -1,7 +1,7 @@
 ---
 title: "Officially Published!"
 description: "Announcing the new domain name of BooksWithSyro."
-pubDate: "Apr 28 2025"
+pubDate: "June 13 2025"
 heroImage: "/images/blog-placeholder-2.jpg"
 author: alexgshijan
 ---
