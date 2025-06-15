@@ -7,7 +7,7 @@ import FormattedDate from '../../components/FormattedDate.astro';
 const SITE_TITLE = 'PDF Archive';
 const SITE_DESCRIPTION = 'A searchable archive of public PDFs';
 
-const response = await fetch('https://pdf-archive.alexgshijan.workers.dev/api/pdfs?ts=${Date.now()}');
+const response = await fetch('https://api.BooksWithSyro/api/pdfs?ts=${Date.now()}');
 const pdfs = await response.json();
 const sorted = pdfs.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
 ---
