@@ -16156,8 +16156,7 @@ initCom(PDFViewerApplication);
   
     // List of allowed external origins
     const allowedOrigins = [
-      'https://pub-a4150c2d14e34942a7eb22425be6bde0.r2.dev',
-      'https://pub-27ed9c1b339a4d2e93ac317c4522a0d5.r2.dev',
+      'https://api.bookswithsyro.co.uk'
     ];
   
     if (allowedOrigins.includes(fileOrigin)) {
