@@ -1,14 +1,13 @@
 import { defineMiddleware } from "astro/middleware";
 
-export const onRequest = defineMiddleware(async (context, next) => {
-  const { url, request } = context;
+export const onRequest = defineMiddleware(async ({ request, url }, next) => {
   const host = request.headers.get("host");
 
-  if (host && host.endsWith("pages.dev")) {
+  if (host && host !== "bookswithsyro.co.uk") {
     return new Response(null, {
       status: 301,
       headers: {
-        Location: `https://www.bookswithsyro.co.uk${url.pathname}`,
+        Location: `https://bookswithsyro.co.uk${url.pathname}`,
       },
     });
   }
