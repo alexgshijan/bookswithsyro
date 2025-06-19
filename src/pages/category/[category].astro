@@ -1,29 +1,30 @@
 ---
-export const prerender = true;
 import BaseHead from '../../components/BaseHead.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import FormattedDate from '../../components/FormattedDate.astro';
-import { slugify } from '../category/slugify.js';
+import { slugify } from './slugify.js';
 
 export async function getStaticPaths() {
   const response = await fetch('https://api.BooksWithSyro.co.uk/api/pdfs');
   const pdfs = await response.json();
-  const sorted = pdfs.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
 
-  return pdfs.map(pdf => ({
-    params: { slug: [pdf.filename] }
+  const categories = [...new Set(pdfs.map(p => p.category))];
+
+  return categories.map((category) => ({
+    params: { category: slugify(category) },
+    props: { category, slug: slugify(category), allPdfs: pdfs },
   }));
 }
 
-// Group by category
-const categoryMap = {};
-for (const pdf of sorted) {
-  const category = pdf.category || 'Uncategorised';
-  if (!categoryMap[category]) categoryMap[category] = [];
-  categoryMap[category].push(pdf);
-}
-const categories = Object.entries(categoryMap);
+const { category, allPdfs } = Astro.props;
+
+const filtered = allPdfs.filter((pdf) => pdf.category === category);
+const sorted = filtered.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
+
+const SITE_TITLE = `Category: ${category}`;
+const SITE_DESCRIPTION = `Documents in the ${category} category`;
+export const prerender = true
 ---
 
 <!doctype html>
@@ -33,7 +34,6 @@ const categories = Object.entries(categoryMap);
     <style>
       main {
         width: 960px;
-        margin: 0 auto;
       }
       ul {
         display: flex;
@@ -70,23 +70,6 @@ const categories = Object.entries(categoryMap);
         color: rgb(var(--gray));
         font-size: 0.95rem;
       }
-      .category-section {
-        margin-top: 4rem;
-      }
-      .category-header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 1rem;
-      }
-      .view-more {
-        font-size: 0.9rem;
-        color: rgb(var(--accent));
-        text-decoration: none;
-      }
-      .view-more:hover {
-        text-decoration: underline;
-      }
       li {
         position: relative;
       }
@@ -99,13 +82,13 @@ const categories = Object.entries(categoryMap);
   </head>
   <body>
     <Header />
-    <main>
-      <h1>Document Archive</h1>
-
-      <section>
-        <h2>Most Recent</h2>
+    <main style="width: 960px; margin: 0 auto;">
+      <h1>{category}</h1>
+      {sorted.length === 0 ? (
+        <p>No documents found in this category.</p>
+      ) : (
         <ul>
-          {sorted.slice(0, 6).map((pdf) => (
+          {sorted.map((pdf) => (
             <li>
               <a href={`/doc/${pdf.filename}/`} title={pdf.description}>
                 <h3>{pdf.title}</h3>
@@ -119,31 +102,7 @@ const categories = Object.entries(categoryMap);
             </li>
           ))}
         </ul>
-      </section>
-
-      {categories.map(([category, docs]) => (
-        <section class="category-section">
-          <div class="category-header">
-            <h2>{category}</h2>
-            <a class="view-more" href={`/category/${slugify(category)}/`}>View more</a>
-          </div>
-          <ul>
-            {docs.slice(0, 6).map((pdf) => (
-              <li>
-                <a href={`/doc/${pdf.filename}/`} title={pdf.description}>
-                  <h3>{pdf.title}</h3>
-                  <p class="desc truncated">
-                    {pdf.description.length > 140 ? pdf.description.slice(0, 130) + '…' : pdf.description}
-                  </p>
-                  <p class="date">
-                    <FormattedDate date={new Date(pdf.pubDate)} />
-                  </p>
-                </a>
-              </li>
-            ))}
-          </ul>
-        </section>
-      ))}
+      )}
     </main>
     <Footer />
   </body>

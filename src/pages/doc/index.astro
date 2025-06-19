@@ -3,6 +3,7 @@ import BaseHead from '../../components/BaseHead.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import FormattedDate from '../../components/FormattedDate.astro';
+import { slugify } from '../category/slugify.js';
 
 const SITE_TITLE = 'PDF Archive';
 const SITE_DESCRIPTION = 'A searchable archive of public PDFs';
@@ -10,8 +11,18 @@ const SITE_DESCRIPTION = 'A searchable archive of public PDFs';
 const response = await fetch('https://api.BooksWithSyro.co.uk/api/pdfs');
 const pdfs = await response.json();
 const sorted = pdfs.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
----
 
+const RECENT_MAX = 6;
+const recent = sorted.slice(0, RECENT_MAX);
+
+const categoryMap = {};
+for (const pdf of sorted.slice(RECENT_MAX)) {
+  const category = pdf.category || 'Uncategorised';
+  if (!categoryMap[category]) categoryMap[category] = [];
+  categoryMap[category].push(pdf);
+}
+const categories = Object.entries(categoryMap);
+---
 <!doctype html>
 <html lang="en">
   <head>
@@ -19,6 +30,7 @@ const sorted = pdfs.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
     <style>
       main {
         width: 960px;
+        margin: 0 auto;
       }
       ul {
         display: flex;
@@ -47,20 +59,35 @@ const sorted = pdfs.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
         font-size: 0.85rem;
       }
       ul li a:hover .desc.truncated,
-			ul li a:hover .date {
-				color: rgb(var(--accent));
-			}
-
-	.desc.truncated {
+      ul li a:hover .date {
+        color: rgb(var(--accent));
+      }
+      .desc.truncated {
         margin: 0 0 0.3rem 0;
         color: rgb(var(--gray));
         font-size: 0.95rem;
       }
-
-li {
-  position: relative;
-}
-    @media (max-width: 720px) {
+      .category-section {
+        margin-top: 3rem;
+      }
+      .category-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1rem;
+      }
+      .view-more {
+        font-size: 0.9rem;
+        color: rgb(var(--accent));
+        text-decoration: none;
+      }
+      .view-more:hover {
+        text-decoration: underline;
+      }
+      li {
+        position: relative;
+      }
+      @media (max-width: 720px) {
         ul li {
           width: 100%;
         }
@@ -69,23 +96,51 @@ li {
   </head>
   <body>
     <Header />
-    <main style="width: 960px; margin: 0 auto;">
+    <main>
       <h1>Document Archive</h1>
-      <ul>
-        {sorted.map((pdf) => (
-          <li>
-            <a href={`/doc/${pdf.filename}/`} title={pdf.description}>
-              <h3>{pdf.title}</h3>
-              <p class="desc truncated">
-        {pdf.description.length > 140 ? pdf.description.slice(0, 130) + '…' : pdf.description}
-      </p>
-              <p class="date">
-                <FormattedDate date={new Date(pdf.pubDate)} />
-              </p>
-            </a>
-          </li>
-        ))}
-      </ul>
+
+      <section>
+        <h2>Recently Added</h2>
+        <ul>
+          {recent.map((pdf) => (
+            <li>
+              <a href={`/doc/${pdf.filename}/`} title={pdf.description}>
+                <h3>{pdf.title}</h3>
+                <p class="desc truncated">
+                  {pdf.description.length > 140 ? pdf.description.slice(0, 130) + '…' : pdf.description}
+                </p>
+                <p class="date">
+                  <FormattedDate date={new Date(pdf.pubDate)} />
+                </p>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      {categories.map(([category, docs]) => (
+        <section class="category-section">
+          <div class="category-header">
+            <h2>{category}</h2>
+            <a class="view-more" href={`/category/${slugify(category)}/`}>View more</a>
+          </div>
+          <ul>
+            {docs.slice(0, 6).map((pdf) => (
+              <li>
+                <a href={`/doc/${pdf.filename}/`} title={pdf.description}>
+                  <h3>{pdf.title}</h3>
+                  <p class="desc truncated">
+                    {pdf.description.length > 140 ? pdf.description.slice(0, 130) + '…' : pdf.description}
+                  </p>
+                  <p class="date">
+                    <FormattedDate date={new Date(pdf.pubDate)} />
+                  </p>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
     </main>
     <Footer />
   </body>
