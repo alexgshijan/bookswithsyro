@@ -24,7 +24,7 @@ const sorted = filtered.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate)
 
 const SITE_TITLE = `Category: ${category}`;
 const SITE_DESCRIPTION = `Documents in the ${category} category`;
----
+export const prerender = true
 ---
 
 <!doctype html>
