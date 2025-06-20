@@ -1,5 +1,5 @@
 ---
-title: "LoTHs Tunes (Incomplete)"
+title: "LoTHs Tunes (In Progress)"
 description: "A sample selections on tunes usable with the English Divine Praises, incluing page references"
 pubDate: "June 12 2025"
 heroImage: "/images/blog-placeholder-4.jpg"
@@ -41,6 +41,36 @@ author: alexgshijan
             <td style="border: 1px solid #ccc; padding: 8px;">
               <audio controls>
                 <source src="/audio/OnithaDaqdam-6.m4a" type="audio/mpeg">
+                Your browser doesn't support the audio element.
+              </audio>
+            </td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid #ccc; padding: 8px;">Kambal Maran (6)</td>
+            <td style="border: 1px solid #ccc; padding: 8px;"></td>
+            <td style="border: 1px solid #ccc; padding: 8px;">
+              <audio controls>
+                <source src="/audio/KambalMaran-6.m4a" type="audio/mpeg">
+                Your browser doesn't support the audio element.
+              </audio>
+            </td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid #ccc; padding: 8px;">Barek Kolhon (4)</td>
+            <td style="border: 1px solid #ccc; padding: 8px;">47</td>
+            <td style="border: 1px solid #ccc; padding: 8px;">
+              <audio controls>
+                <source src="/audio/KambalMaran-6.m4a" type="audio/mpeg">
+                Your browser doesn't support the audio element.
+              </audio>
+            </td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid #ccc; padding: 8px;">Morning Hymn (4)</td>
+            <td style="border: 1px solid #ccc; padding: 8px;">45</td>
+            <td style="border: 1px solid #ccc; padding: 8px;">
+              <audio controls>
+                <source src="/audio/MorningHymn.m4a" type="audio/mpeg">
                 Your browser doesn't support the audio element.
               </audio>
             </td>
