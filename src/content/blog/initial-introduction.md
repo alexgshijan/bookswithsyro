@@ -2,7 +2,7 @@
 title: "Initial Introduction"
 description: "The first blog post: an introduction to what I'm aiming towards and how you can help."
 pubDate: "June 1 2025"
-heroImage: "/images/blog-placeholder-2.jpg"
+heroImage: "/images/blog-placeholder-3.jpg"
 author: alexgshijan
 ---
 
