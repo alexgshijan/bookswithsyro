@@ -101,6 +101,9 @@
         }
     ],
     "events": [
-        
+        {"text":"Synod of Diamper",
+    "start_date":{
+        "year":1599
+    }}
     ]
 }
