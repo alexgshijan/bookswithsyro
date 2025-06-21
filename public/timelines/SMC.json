@@ -12,50 +12,95 @@
     "eras": [
         {
             "text": {
-                "headline": "Church of Hendo"
+                "headline": "Everything started in Jerusalem"
             },
             "start_date": {
-                "year": 0,
-                "month": 1, 
-                "day": 1
+                "year": 1,
+                "month": 12, 
+                "day": 25
             },
             "end_date": {
-                "year": 1500,
-                "month": 1,
-                "day": 1
+                "year": 33,
+                "month": 4,
+                "day": 3
             }
         },
         {
             "text": {
-                "headline": "Church under Latin Bishops"
+                "headline": "Missionary journeys of Mar Thoma Sleeha"
             },
             "start_date": {
-                "year": 1599,
+                "year": 43,
                 "month": 1, 
                 "day": 1
             },
             "end_date": {
-                "year": 1800,
-                "month": 1,
-                "day": 1
+                "year": 72,
+                "month": 12,
+                "day": 21
+            }
+        },
+        {
+            "text": {
+                "headline": "Christians in India after St Thomas"
+            },
+            "start_date": {
+                "year": 72,
+                "month": 12, 
+                "day": 21
+            },
+            "end_date": {
+                "year": 325
+            }
+        },
+        {
+            "text": {
+                "headline": "Under the Patriachiate of Seleucia-Ctesiphon"
+            },
+            "start_date": {
+                "year": 325
+            },
+            "end_date": {
+                "year": 1599,
+                "month": 6,
+                "day": 20
+            }
+        },
+        {
+            "text": {
+                "headline": "The Portuguese Missionaries"
+            },
+            "start_date": {
+                "year": 1498
+            },
+            "end_date": {
+                "year": 1550
+            }
+        },
+        {
+            "text": {
+                "headline": "Division in the East Syrian Church"
+            },
+            "start_date": {
+                "year": 1551
+            },
+            "end_date": {
+                "year": 1553
+            }
+        },
+        {
+            "text": {
+                "headline": "Troubles begin in the Mar Thoma Narani Church"
+            },
+            "start_date": {
+                "year": 1552
+            },
+            "end_date":{
+                "year":1599
             }
         }
     ],
     "events": [
-        {
-            "text": {
-                "headline": "Synod of Diamper"
-            },
-            "start_date": {
-                "year": 1599,
-                "month": 6,
-                "day": 20
-            },
-            "end_date": {
-                "year": 1600,
-                "month": 6,
-                "day": 26
-            }
-        }
+        
     ]
 }
