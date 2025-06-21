@@ -101,7 +101,7 @@
         }
     ],
     "events": [
-        {"text":"Synod of Diamper",
+        {"text":{"haedline":"Synod of Diamper"},
     "start_date":{
         "year":1599
     }}
