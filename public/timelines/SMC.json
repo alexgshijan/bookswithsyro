@@ -102,12 +102,23 @@
         {
             "text": {
                 "headline": "Jesus' Death on the Cross",
-                "text": " Then Jesus cried again with a loud voice and breathed his last. At that moment the curtain of the temple was torn in two, from top to bottom. The earth shook, and the rocks were split. The tombs also were opened, and many bodies of the saints who had fallen asleep were raised. After his resurrection they came out of the tombs and entered the holy city and appeared to many. 54 Now when the centurion and those with him, who were keeping watch over Jesus, saw the earthquake and what took place, they were terrified and said, “Truly this man was God’s Son! - (Matthew 27:50-54)"
+                "text": "Then Jesus cried again with a loud voice and breathed his last. At that moment the curtain of the temple was torn in two, from top to bottom. The earth shook, and the rocks were split. The tombs also were opened, and many bodies of the saints who had fallen asleep were raised. After his resurrection they came out of the tombs and entered the holy city and appeared to many. 54 Now when the centurion and those with him, who were keeping watch over Jesus, saw the earthquake and what took place, they were terrified and said, “Truly this man was God’s Son! - (Matthew 27:50-54)"
             },
             "start_date":{
-                "year": -33,
+                "year": 33,
                 "month": 4,
                 "day": 3
+            }
+        },
+        {
+            "text": {
+                "headline": "Jesus' Ascension to Heaven",
+                "text": "He replied, \"It is not for you to know the times or periods that the Father has set by his own authority. But you will receive power when the Holy Spirit has come upon you; and you will be my witnesses in Jerusalem, in all Judea and Samaria, and to the ends of the earth.\" When he had said this, as they were watching, he was lifted up, and a cloud took him out of their sight. - (Acts 1:7-9)"
+            },
+            "start_date":{
+                "year": 33,
+                "month": 5,
+                "day": 15
             }
         },
         {
