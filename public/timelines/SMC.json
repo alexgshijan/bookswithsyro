@@ -31,7 +31,7 @@
                 "day": 21
             },
             "end_date": {
-                "year": 325
+                "year": 345
             }
         },
         {
@@ -39,7 +39,7 @@
                 "headline": "Under the Patriachiate of Seleucia-Ctesiphon"
             },
             "start_date": {
-                "year": 325
+                "year": 345
             },
             "end_date": {
                 "year": 1498
@@ -121,7 +121,30 @@
         },
         {
             "text": {
-                "headline": "St Thomas Mission to South India",
+                "headline": "St Thomas' Mission to South India",
+                "text": ""
+            },
+            "start_date":{
+                "year": 34
+            },
+            "end_date":{
+                "year": 47
+            },
+            "unique_id":"second-visit"
+        },
+        {
+            "text": {
+                "headline": "The Assumption of Mary",
+                "text": ""
+            },
+            "start_date":{
+                "year": 47
+            },
+            "unique_id":"assumption"
+        },
+        {
+            "text": {
+                "headline": "St Thomas' Mission to South India",
                 "text": ""
             },
             "start_date":{
@@ -131,6 +154,93 @@
                 "year": 72
             },
             "unique_id":"second-visit"
+        },
+        {
+            "text": {
+                "headline": "Alexandrian scholar, Pantaenus, visits and testifies to the presence of Christians in Malabar.",
+                "text": ""
+            },
+            "start_date":{
+                "year": 189
+            },
+            "end_date":{
+                "year": 190
+            }
+        },
+        {
+            "text": {
+                "headline": "Papa bar Aggai was consecrated as Bishop of Seleucia-Ctesiphon by two visiting bishops, Akha d'abuh' of Arbela and Hai-Beël of Susa",
+                "text": "While Christianity had been introduced into Assyria then largely under the rule of the Parthian Empire in the first centuries AD, during the earliest period, leadership was unorganized and there was no established succession untill this point."
+            },
+            "start_date":{
+                "year": 280
+            }
+        },
+        {
+            "text": {
+                "headline": "First Council of Nicaea",
+                "text": "The primary goal was to settle the theological dispute caused by Arianism, which claimed Jesus was a created being and not equal to God the Father. The council produced the Nicene Creed, which affirmed the divinity of Jesus and his co-equal status with God the Father. It also condemned Arianism and exiled Arius and some of his followers. Affirmed by The Church of The East"
+            },
+            "start_date":{
+                "year": 325
+            }
+        },
+        {
+            "text": {
+                "headline": "Persion Migration",
+                "text": "By this time, many Persian Christians started to flee the Sassanid terror. A good number of them came to Malabar for the rulers there were more tolerant... as well as the presence of a Christianity of the same patrimony accelerated this move. One such group was led by a merchant named Thomas of Cana. According to tradition, Thomas of Cana migrated to Muziris with a bishop and 345 East Syrian Christians from 72 families... The followers of Thomas of Cana, also known as Knayi Thomman, are today recognised as the Knanaya community. The Knanaya migration must be the pivotal point which brought an episcopal connection between the Indian and the Persian church. Since then, the Patriarch of Seleucia-Ctesiphon sent bishops to India regularly."
+            },
+            "start_date":{
+                "year": 345
+            }
+        },
+        {
+            "text": {
+                "headline": "Mar Aprem references India.",
+                "text": "Mar Aprem is important to us in the Indian Church because his poems refer to the Apostle Thomas having become martyr in India. As evidence on the tradition of St. Thomas founding Church in India is being questioned by some doubting Thomases, St. Ephrem comes to bear testimony to the fact that the St. Thomas tradition is at least as old as the 4th century when Mar Aprem lived and wrote. How early was such tradition in vogue in the Middle East, is not known. - (Mar Aprem - Theologian & Poet SEERI, p11)"
+            },
+            "start_date":{
+                "year": 363
+            },
+            "end_date":{
+                "year": 365
+            }
+        },
+        {
+            "text": {
+                "headline": "First Council of Constantinople",
+                "text": "The council affirmed the Nicene Creed, originally formulated in 325, and expanded it to clarify the relationship between the Father, Son, and Holy Spirit, producing what is now known as the Niceno-Constantinopolitan Creed. The council definitively declared the Holy Spirit to be fully God, equal to the Father and the Son."
+            },
+            "start_date":{
+                "year": 381
+            }
+        },
+        {
+            "text": {
+                "headline": "The Church of the East received state recognition from the Sassanid Emperor Yazdegerd I",
+                "text": "The Council of Seleucia-Ctesiphon was also called, at which the church's hierarchy was formalized."
+            },
+            "start_date":{
+                "year": 409
+            }
+        },
+        {
+            "text": {
+                "headline": "Council of Ephesus",
+                "text": "The council ultimately condemned Nestorianism, affirmed Mary as the Theotokos (God-bearer), and defined the relationship between Christ's divine and human natures. Nestorius is condemned a heretic. The Church of The East refuses to condemn Nestorius. Modern discoveries of works written by Nestorius (The Bazaar of Heracleides) lends credence of The Church of The East's claims of Nestorius' orthodoxy and reveals that the issue lied within a conflict of two distinct schools of thought, antiochian and alexandrian. - (The Person and Teachings of Nestorius of Constantinople1 with a special reference to his Condemnation at the Council of Ephesus)"
+            },
+            "start_date":{
+                "year": 431
+            }
+        },
+        {
+            "text": {
+                "headline": "Daniel the Indian scholar helps the translation works at the School of Edessa.",
+                "text": ""
+            },
+            "start_date":{
+                "year": 440
+            }
         },
         {
             "text": {
