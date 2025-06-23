@@ -8,21 +8,6 @@
     "eras": [
         {
             "text": {
-                "headline": "Everything started in Jerusalem"
-            },
-            "start_date": {
-                "year": 1,
-                "month": 12, 
-                "day": 25
-            },
-            "end_date": {
-                "year": 33,
-                "month": 4,
-                "day": 3
-            }
-        },
-        {
-            "text": {
                 "headline": "Journeys of Mar Thoma Sleeha"
             },
             "start_date": {
@@ -136,34 +121,14 @@
         },
         {
             "text": {
-                "headline": "Delegating the task of Evangelism",
-                "text": "The Twelve gathered in Jerusalem to decide how to carry out their master's injunction to \"teach all nations.\" They divided the world by lot, to determine which part each should evangelize. Thomas drew India. He resisted the mission. Indians, he said, were too hard-hearted to receive the message, and besides, he did not speak their language. Jesus appeared in a vision to reassure him: \"Fear not, Thomas, because my grace is with you\" Thomas still balked: \"Send me, Lord, wheresoever's you will, but to India I will not go.\" - (Acts of Judas Thomas)"
-            },
-            "start_date":{
-                "year": 33
-            },
-            "unique_id":"delegation-of-the-world"
-        },
-        {
-            "text": {
-                "headline": "St Thomas's First Visit To India (North)",
-                "text": ""
-            },
-            "start_date":{
-                "year": 33
-            },
-            "end_date":{
-                "year": 40
-            },
-            "unique_id":"first-visit"
-        },
-        {
-            "text": {
-                "headline": "St Thomas's Second Visit To India (South)",
+                "headline": "St Thomas Mission to South India",
                 "text": ""
             },
             "start_date":{
                 "year": 52
+            },
+            "end_date":{
+                "year": 72
             },
             "unique_id":"second-visit"
         },
