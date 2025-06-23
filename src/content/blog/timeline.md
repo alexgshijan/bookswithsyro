@@ -1,12 +1,10 @@
 ---
-title: "Interactive Timeline of the Syro-Malabar Church from Origin to Date (Incomplete)"
+title: "Interactive Timeline of the Syro-Malabar Church from Origin to Date (ETA:SEPT)"
 description: "A brief look at key stats of the Syro-Malabar Church from Origin to Date."
 pubDate: "Apr 28 2025"
 heroImage: "/images/1749844957984-a709eb8d-0034-4721-b7e9-bcf1233a5381_1.png"
 author: alexgshijan
 ---
-
-Estimated Completion date is around Septemeber, please bear with me
 
 <link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
 <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
