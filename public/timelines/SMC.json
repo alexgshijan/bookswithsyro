@@ -95,7 +95,8 @@
             },
             "start_date":{
                 "year": -972
-            }
+            },
+            "unique_id":"prexisting-trade-routes"
         },
         {
             "text": {
@@ -106,7 +107,8 @@
                 "year": 33,
                 "month": 4,
                 "day": 3
-            }
+            },
+            "unique_id":"cruxifiction"
         },
         {
             "text": {
@@ -117,7 +119,8 @@
                 "year": 33,
                 "month": 5,
                 "day": 15
-            }
+            },
+            "unique_id":"ascension"
         },
         {
             "text": {
@@ -126,7 +129,8 @@
             },
             "start_date":{
                 "year": 43
-            }
+            },
+            "unique_id":"first-visit"
         },
         {
             "text": {
@@ -135,7 +139,8 @@
             },
             "start_date":{
                 "year": 52
-            }
+            },
+            "unique_id":"second-visit"
         },
         {
             "text": {
@@ -144,7 +149,8 @@
             },
             "start_date":{
                 "year": 1302
-            }
+            },
+            "unique_id":"yahballaha-letter-to-pope-boniface-viii"
         },
         {
             "text": {
@@ -155,7 +161,8 @@
                 "year": 1304,
                 "month": 5,
                 "day": 18
-            }
+            },
+            "unique_id":"yahballaha-letter-to-pope-benedict-xi"
         },
         {
             "text": {
@@ -165,7 +172,8 @@
                 "year": 1599,
                 "month": 6,
                 "day": 20
-            }
+            },
+            "unique_id":"synod-of-diamper"
         }
     ]
 }
