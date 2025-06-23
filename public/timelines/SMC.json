@@ -72,6 +72,19 @@
                 "month": 6,
                 "day": 20
             }
+        },
+        {
+            "text": {
+                "headline": "Padroado Jurisdiction"
+            },
+            "start_date": {
+                "year": 1599,
+                "month": 6,
+                "day": 20
+            },
+            "end_date":{
+                "year": 2000
+            }
         }
     ],
     "events": [
