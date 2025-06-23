@@ -26,7 +26,7 @@
                 "headline": "Journeys of Mar Thoma Sleeha"
             },
             "start_date": {
-                "year": 43,
+                "year": 45,
                 "month": 1, 
                 "day": 1
             },
@@ -124,11 +124,36 @@
         },
         {
             "text": {
+                "headline": "Pentecost",
+                "text": "And suddenly from heaven there came a sound like the rush of a violent wind, and it filled the entire house where they were sitting. Divided tongues, as of fire, appeared among them, and a tongue rested on each of them. All of them were filled with the Holy Spirit and began to speak in other languages, as the Spirit gave them ability. - (Acts 2:2-4)"
+            },
+            "start_date":{
+                "year": 33,
+                "month": 5,
+                "day": 25
+            },
+            "unique_id":"ascension"
+        },
+        {
+            "text": {
+                "headline": "Delegating the task of Evangelism",
+                "text": "The Twelve gathered in Jerusalem to decide how to carry out their master's injunction to \"teach all nations.\" They divided the world by lot, to determine which part each should evangelize. Thomas drew India. He resisted the mission. Indians, he said, were too hard-hearted to receive the message, and besides, he did not speak their language. Jesus appeared in a vision to reassure him: \"Fear not, Thomas, because my grace is with you\" Thomas still balked: \"Send me, Lord, wheresoever's you will, but to India I will not go.\" - (Acts of Judas Thomas)"
+            },
+            "start_date":{
+                "year": 33
+            },
+            "unique_id":"delegation-of-the-world"
+        },
+        {
+            "text": {
                 "headline": "St Thomas's First Visit To India (North)",
                 "text": ""
             },
             "start_date":{
-                "year": 43
+                "year": 33
+            },
+            "end_date":{
+                "year": 40
             },
             "unique_id":"first-visit"
         },
