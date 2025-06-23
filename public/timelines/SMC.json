@@ -80,8 +80,7 @@
             },
             "start_date":{
                 "year": -972
-            },
-            "unique_id":"prexisting-trade-routes"
+            }
         },
         {
             "text": {
@@ -92,8 +91,7 @@
                 "year": 33,
                 "month": 4,
                 "day": 3
-            },
-            "unique_id":"cruxifiction"
+            }
         },
         {
             "text": {
@@ -104,8 +102,7 @@
                 "year": 33,
                 "month": 5,
                 "day": 15
-            },
-            "unique_id":"ascension"
+            }
         },
         {
             "text": {
@@ -116,8 +113,7 @@
                 "year": 33,
                 "month": 5,
                 "day": 25
-            },
-            "unique_id":"ascension"
+            }
         },
         {
             "text": {
@@ -129,8 +125,7 @@
             },
             "end_date":{
                 "year": 47
-            },
-            "unique_id":"second-visit"
+            }
         },
         {
             "text": {
@@ -139,8 +134,7 @@
             },
             "start_date":{
                 "year": 47
-            },
-            "unique_id":"assumption"
+            }
         },
         {
             "text": {
@@ -152,8 +146,7 @@
             },
             "end_date":{
                 "year": 72
-            },
-            "unique_id":"second-visit"
+            }
         },
         {
             "text": {
@@ -249,8 +242,7 @@
             },
             "start_date":{
                 "year": 1302
-            },
-            "unique_id":"yahballaha-letter-to-pope-boniface-viii"
+            }
         },
         {
             "text": {
@@ -261,8 +253,7 @@
                 "year": 1304,
                 "month": 5,
                 "day": 18
-            },
-            "unique_id":"yahballaha-letter-to-pope-benedict-xi"
+            }
         },
         {
             "text": {
@@ -272,8 +263,7 @@
                 "year": 1599,
                 "month": 6,
                 "day": 20
-            },
-            "unique_id":"synod-of-diamper"
+            }
         }
     ]
 }
