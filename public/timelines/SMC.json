@@ -2,11 +2,7 @@
     "title": {
         "text":{
             "headline": "Timeline of the Syro-Malabar Church from Origin to Date",
-            "text": "Including relevant sources and additional key events",
-            "media": {
-                "url": "/images/1749844957984-a709eb8d-0034-4721-b7e9-bcf1233a5381_1.png",
-                "caption": "(Unofficial) Flag of the Syro-Malabar Church"
-            }
+            "text": "Including relevant sources and additional key events"
         }
     },
     "eras": [
@@ -68,21 +64,10 @@
         },
         {
             "text": {
-                "headline": "The Portuguese Missionaries"
-            },
-            "start_date": {
-                "year": 1498
-            },
-            "end_date": {
-                "year": 1550
-            }
-        },
-        {
-            "text": {
                 "headline": "Troubles begin in the Mar Thoma Nasrani Church"
             },
             "start_date": {
-                "year": 1551
+                "year": 1498
             },
             "end_date":{
                 "year": 1599
