@@ -57,9 +57,7 @@
                 "year": 325
             },
             "end_date": {
-                "year": 1599,
-                "month": 6,
-                "day": 20
+                "year": 1498
             }
         },
         {
@@ -70,7 +68,9 @@
                 "year": 1498
             },
             "end_date":{
-                "year": 1599
+                "year": 1599,
+                "month": 6,
+                "day": 20
             }
         }
     ],
@@ -149,7 +149,9 @@
                 "headline": "Synod of Diamper"
             },
             "start_date":{
-                "year": 1599
+                "year": 1599,
+                "month": 6,
+                "day": 20
             }
         }
     ]
