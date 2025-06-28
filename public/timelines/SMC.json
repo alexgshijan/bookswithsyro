@@ -150,14 +150,23 @@
         },
         {
             "text": {
-                "headline": "Alexandrian scholar, Pantaenus, visits and testifies to the presence of Christians in Malabar.",
-                "text": ""
+                "headline": "Report of Pantaleunus",
+                "text": "Alexandrian scholar, Pantaenus, visits and testifies to the presence of Christians in Malabar."
             },
             "start_date":{
                 "year": 189
             },
             "end_date":{
                 "year": 190
+            }
+        },
+        {
+            "text": {
+                "headline": "A Documentation about the priesthood for India",
+                "text": "According to ancient Syriac documents written during this period, India receives priesthood directly from the hands of the Apostle Thomas. "
+            },
+            "start_date":{
+                "year": 230
             }
         },
         {
@@ -171,6 +180,27 @@
         },
         {
             "text": {
+                "headline": "Journey of Mar David of Basra",
+                "text": "Journey of Mar David of Basra (Bishop of Maishan, southern part of modern Iraq), according to the Chronicle of Seert. Mar David left his seat to evangelise India. This is one of the early recorded instances of Persian bishops arriving in India."
+            },
+            "start_date":{
+                "year": 295
+            },
+            "end_date":{
+                "year": 300
+            }
+        },
+        {
+            "text": {
+                "headline": "Mar Papa Bar Aggai takes the title of Catholicos",
+                "text": "Mar Papa bar Aggai, the bishop of the capital city of the Persian Empire, Seleucia-Ctesiphon (near Baghdad, modern Iraq) sets himself up as the head of the hierarchy of bishops in the Persian Empire. He took the title of Catholicos (head of the Catholic (universal) Church). However, other bishops in the Empire refuse to accept such an authority and he was deposed, though later he returned to serve as bishop."
+            },
+            "start_date":{
+                "year": 315
+            }
+        },
+        {
+            "text": {
                 "headline": "First Council of Nicaea",
                 "text": "The primary goal was to settle the theological dispute caused by Arianism, which claimed Jesus was a created being and not equal to God the Father. The council produced the Nicene Creed, which affirmed the divinity of Jesus and his co-equal status with God the Father. It also condemned Arianism and exiled Arius and some of his followers. Affirmed by The Church of The East"
             },
@@ -180,17 +210,17 @@
         },
         {
             "text": {
-                "headline": "Persion Migration",
-                "text": "By this time, many Persian Christians started to flee the Sassanid terror. A good number of them came to Malabar for the rulers there were more tolerant... as well as the presence of a Christianity of the same patrimony accelerated this move. One such group was led by a merchant named Thomas of Cana. According to tradition, Thomas of Cana migrated to Muziris with a bishop and 345 East Syrian Christians from 72 families... The followers of Thomas of Cana, also known as Knayi Thomman, are today recognised as the Knanaya community. The Knanaya migration must be the pivotal point which brought an episcopal connection between the Indian and the Persian church. Since then, the Patriarch of Seleucia-Ctesiphon sent bishops to India regularly."
+                "headline": "Bishop Theophilus",
+                "text": "Bishop Theophilus, a native of Maldives, visits Malabar and reports about the Christian community."
             },
             "start_date":{
-                "year": 345
+                "year": 355
             }
         },
         {
             "text": {
                 "headline": "Mar Aprem references India.",
-                "text": "Mar Aprem is important to us in the Indian Church because his poems refer to the Apostle Thomas having become martyr in India. As evidence on the tradition of St. Thomas founding Church in India is being questioned by some doubting Thomases, St. Ephrem comes to bear testimony to the fact that the St. Thomas tradition is at least as old as the 4th century when Mar Aprem lived and wrote. How early was such tradition in vogue in the Middle East, is not known. - (Mar Aprem - Theologian & Poet SEERI, p11)"
+                "text": "Mar Aprem is important to us in the Indian Church because his poems refer to the Apostle Thomas having become martyr in India. As evidence on the tradition of St. Thomas founding Church in India is being questioned by some doubting Thomases, St. Ephrem comes to bear testimony to the fact that the St. Thomas tradition is at least as old as the 4th century when Mar Aprem lived and wrote. How early was such tradition in vogue in the Middle East, is not known. - (Mar Aprem - Theologian & Poet SEERI, p11). Mar Aphrem (St. Ephrem the Syrian) writes in length about the Apostle Thomas' visit and death in India. The remains of the Apostle martyred in India are brought to Edessa, Mesopotamia (the city of Sianliurfa in modern Turkey) by a merchant. "
             },
             "start_date":{
                 "year": 363
@@ -229,10 +259,37 @@
         {
             "text": {
                 "headline": "Daniel the Indian scholar helps the translation works at the School of Edessa.",
-                "text": ""
+                "text": "Daniel, an Indian priest helps Mar Komai in translating the Greek epistles to Syriac. Metropolitan Mana of Rew-Ardashihr in Fars (Bushahr in Modern Iran) sends copies of his Syriac and Persian translations of Greek works for use by the Indian clergy. The East-Syrian Church used Christian literature translated to various local languages though the Liturgy was in East-Syriac. A Persian translation of the Liturgy may have been used. "
             },
             "start_date":{
                 "year": 440
+            }
+        },
+        {
+            "text": {
+                "headline": "Translation of the Anaphoras",
+                "text": "Catholicos-Patriarch Mar Ava translates the Anaphoras of Theodore of Mopsuestia and Nestorius from Greek to East-Syriac. This was done during a visit by the Catholicos to the Roman Empire. These two Anaphoras are used during certain periods or days of the Liturgical calendar. "
+            },
+            "start_date":{
+                "year": 540
+            }
+        },
+        {
+            "text": {
+                "headline": "The Catholicos-Patriarch Isho'Yahb III",
+                "text": "The Catholicos-Patriarch Isho'Yahb III (649-659) complaints about shortcomings by Metropolitan Shemon (Simon) of Fars [Beth Parsaye] in his handling of Indian bishoprics. The Patriarch raises India [Beth Hindaye] to a Metropolitan Province. "
+            },
+            "start_date":{
+                "year": 649
+            }
+        },
+        {
+            "text": {
+                "headline": "Visit of Marco Polo",
+                "text": "Marco Polo, a Venetian traveller, visits the tomb of St. Thomas at Mylapore and Malabar. He speaks about the presence of Christians in Malabar. Around the same time John of Monte Corvino, a Francisan missionary, also visits the region."
+            },
+            "start_date":{
+                "year": 1293
             }
         },
         {
