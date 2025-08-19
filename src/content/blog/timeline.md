@@ -9,7 +9,7 @@ author: alexgshijan
 <link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
 <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
 <div id='timeline-embed' style="width: 100%; height: 600px"></div>
-<script type="text/javascript"> timeline = new TL.Timeline('timeline-embed', '../../../public/timelines/SMC.json', {scale_factor:8, use_bc: true});</script>
+<script type="text/javascript"> timeline = new TL.Timeline('timeline-embed', '/timelines/SMC.json', {scale_factor:8, use_bc: true});</script>
 <br>
 
 This project draws heavily on *The Roots - The History of the Syro-Malabar Church*, a document put together by the Melbourne Eparchy's Youth Apstalate. It is now available for international purchase via their [Thoma Store](https://www.ya.org.au/thomastore/)
