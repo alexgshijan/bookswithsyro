@@ -80,7 +80,7 @@ author: alexgshijan
             <td style="border: 1px solid #ccc; padding: 8px;">32</td>
             <td style="border: 1px solid #ccc; padding: 8px;">
               <audio controls>
-                <source src="/audio/NightHymn.m4a" type="audio/mpeg">
+                <source src="/audio/NightHymn.mp3" type="audio/mpeg">
                 Your browser doesn't support the audio element.
               </audio>
             </td>
