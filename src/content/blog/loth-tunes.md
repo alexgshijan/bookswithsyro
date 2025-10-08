@@ -6,85 +6,99 @@ heroImage: "/images/blog-placeholder-4.jpg"
 author: alexgshijan
 ---
 
-<table style="width: 100%; border-collapse: collapse; margin-top: 20px;">
-        <thead>
-          <tr>
-            <th style="border: 1px solid #ccc; padding: 8px;">Description (Verse Length)</th>
-            <th style="border: 1px solid #ccc; padding: 8px;">Reference Page</th>
-            <th style="border: 1px solid #ccc; padding: 8px;">Audio File</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td style="border: 1px solid #ccc; padding: 8px;">Hymn of Incense - Ramsha (6)</td>
-            <td style="border: 1px solid #ccc; padding: 8px;">11</td>
-            <td style="border: 1px solid #ccc; padding: 8px;">
-              <audio controls>
-                <source src="/audio/HymnOfIncense.m4a" type="audio/mpeg">
-                Your browser doesn't support the audio element.
-              </audio>
-            </td>
-          </tr>
-          <tr>
-            <td style="border: 1px solid #ccc; padding: 8px;">Lakhumara - Ramsha (4)</td>
-            <td style="border: 1px solid #ccc; padding: 8px;">13</td>
-            <td style="border: 1px solid #ccc; padding: 8px;">
-              <audio controls>
-                <source src="/audio/Lakhumara.m4a" type="audio/mpeg">
-                Your browser doesn't support the audio element.
-              </audio>
-            </td>
-          </tr>
-          <tr>
-            <td style="border: 1px solid #ccc; padding: 8px;">Onitha Daqdam - Ramsha (6)</td>
-            <td style="border: 1px solid #ccc; padding: 8px;">71</td>
-            <td style="border: 1px solid #ccc; padding: 8px;">
-              <audio controls>
-                <source src="/audio/OnithaDaqdam-6.m4a" type="audio/mpeg">
-                Your browser doesn't support the audio element.
-              </audio>
-            </td>
-          </tr>
-          <tr>
-            <td style="border: 1px solid #ccc; padding: 8px;">Kambal Maran (6)</td>
-            <td style="border: 1px solid #ccc; padding: 8px;"></td>
-            <td style="border: 1px solid #ccc; padding: 8px;">
-              <audio controls>
-                <source src="/audio/KambalMaran-6.m4a" type="audio/mpeg">
-                Your browser doesn't support the audio element.
-              </audio>
-            </td>
-          </tr>
-          <tr>
-            <td style="border: 1px solid #ccc; padding: 8px;">Barek Kolhon (4)</td>
-            <td style="border: 1px solid #ccc; padding: 8px;">47</td>
-            <td style="border: 1px solid #ccc; padding: 8px;">
-              <audio controls>
-                <source src="/audio/BarekKolhon.m4a" type="audio/mpeg">
-                Your browser doesn't support the audio element.
-              </audio>
-            </td>
-          </tr>
-          <tr>
-            <td style="border: 1px solid #ccc; padding: 8px;">Morning Hymn (4)</td>
-            <td style="border: 1px solid #ccc; padding: 8px;">45</td>
-            <td style="border: 1px solid #ccc; padding: 8px;">
-              <audio controls>
-                <source src="/audio/MorningHymn.m4a" type="audio/mpeg">
-                Your browser doesn't support the audio element.
-              </audio>
-            </td>
-          </tr>
-          <tr>
-            <td style="border: 1px solid #ccc; padding: 8px;">Night Hymn (6)</td>
-            <td style="border: 1px solid #ccc; padding: 8px;">32</td>
-            <td style="border: 1px solid #ccc; padding: 8px;">
-              <audio controls>
-                <source src="/audio/NightHymn.mp3" type="audio/mpeg">
-                Your browser doesn't support the audio element.
-              </audio>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-      <br>
+<style>
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+  th {
+    background-color: #f5f5f5;
+    text-align: left;
+  }
+  audio {
+    width: 100%;
+  }
+</style>
+
+<table>
+  <thead>
+    <tr>
+      <th>Description (Verse Length)</th>
+      <th>Reference Page</th>
+      <th>Audio File</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Hymn of Incense - Ramsha (6)</td>
+      <td>11</td>
+      <td>
+        <audio controls>
+          <source src="/audio/HymnOfIncense.m4a" type="audio/mpeg">
+          Your browser doesn't support the audio element.
+        </audio>
+      </td>
+    </tr>
+    <tr>
+      <td>Lakhumara - Ramsha (4)</td>
+      <td>13</td>
+      <td>
+        <audio controls>
+          <source src="/audio/Lakhumara.m4a" type="audio/mpeg">
+        </audio>
+      </td>
+    </tr>
+    <tr>
+      <td>Onitha Daqdam - Ramsha (6)</td>
+      <td>71</td>
+      <td>
+        <audio controls>
+          <source src="/audio/OnithaDaqdam-6.m4a" type="audio/mpeg">
+        </audio>
+      </td>
+    </tr>
+    <tr>
+      <td>Kambal Maran (6)</td>
+      <td></td>
+      <td>
+        <audio controls>
+          <source src="/audio/KambalMaran-6.m4a" type="audio/mpeg">
+        </audio>
+      </td>
+    </tr>
+    <tr>
+      <td>Barek Kolhon (4)</td>
+      <td>47</td>
+      <td>
+        <audio controls>
+          <source src="/audio/BarekKolhon.m4a" type="audio/mpeg">
+        </audio>
+      </td>
+    </tr>
+    <tr>
+      <td>Morning Hymn (4)</td>
+      <td>45</td>
+      <td>
+        <audio controls>
+          <source src="/audio/MorningHymn.m4a" type="audio/mpeg">
+        </audio>
+      </td>
+    </tr>
+    <tr>
+      <td>Night Hymn (6)</td>
+      <td>32</td>
+      <td>
+        <audio controls>
+          <source src="/audio/NightHymn.mp3" type="audio/mpeg">
+        </audio>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
