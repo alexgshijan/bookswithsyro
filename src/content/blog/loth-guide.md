@@ -41,7 +41,7 @@ At the Onitha d’Ramsa/d’Wasaliqe (Evening Anthem), with the Deacon initially
 
 At the end of Ramsha, remember to exchange peace starting from the presider
 
-### Lelya
+#### Lelya
 
 Before starting Lelya, remember to exchange peace starting from the presider.
 
@@ -59,7 +59,7 @@ Epistle of the Day can be found using the instructions detailed above in **Readi
 
 At the end of Lelya, there is no exchange of peace.
 
-### Sapra
+#### Sapra
 
 At the start of Sapra, there is no exchange of peace.
 
@@ -69,5 +69,5 @@ At the Onitha d’Sapra (Morning Anthem of the day), with the Deacon initially s
 
 At the end of Sapra, remember to exchange peace starting from the presider
 
-### Bookmark Side Menu on Desktop
+#### Bookmark Side Menu on Desktop
 ![](/images/desktop.png)
