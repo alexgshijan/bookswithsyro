@@ -9,45 +9,45 @@ As I noted in my article [What are the Liturgy of The Hours?](/blog/loth), The L
 
 ### Reading of the Day
 
-The Liturgical day starts with Ramsha of the previous day. There are still remnants of this understanding of the day in celebrations of Christmas Eve, and similar times. That is to say Liturgical Sunday starts with Saturday's Ramsha. As such the readings for Ramsha and Lelya must also be from the following day. I would recommend using [SyroCalender's daily reading selector](https://syrocalendar.com/daily-readings/) or referencing any Syro-Malabar reading calendar / app (SyroMalabar Praarthanakal or SyroMalabar) to select the following day's readings.
+The Liturgical day starts with Ramsa (Evening Prayer) of the previous day. There are still remnants of this understanding of the day in celebrations of Christmas Eve, and similar times. That is to say Liturgical Sunday starts with "Saturday" 's Ramsa. As such the readings for Ramsa and Lelya must also be from the following day. I would recommend using [SyroCalender's daily reading selector](https://syrocalendar.com/daily-readings/) or referencing the [Syro-Malabar reading calendar](https://www.syromalabarliturgy.org/assets/uploads/pdfs/b35ad-panchangam-2025-english.pdf) / app (SyroMalabar Praarthanakal or SyroMalabar) to select the following day's readings.
 
 ### The Hours of the Day
 
-Each Liturgy of the Hour has a set time prescribed by the church. For Ramsha that is around 6PM to 9PM, for Lelya that is before we sleep (9PM to 12AM), for Sapra that is when we wake up (6AM to 9AM). The church exhorts it's people to pray these prayers at these set times (CCC 1174 - 1178).
+Each Liturgy of the Hour has a set time prescribed by the church. For Ramsa that is around 6PM to 9PM, for Lelya that is before we sleep (9PM to 3AM), for Sapra that is when we wake up (6AM to 9AM). The church exhorts its people to pray these prayers at these set times (CCC 1174 - 1178).
 
 ### Tunes
 
 While using the set Liturgical tunes may initially be hard, with practice it can become second nature counting the number of lines and matching it to a suitable tune. [A few examples have been provided.](/blog/loth-tunes)
 
-### Using the Online PDF
+### [Using the Online PDF](/loth)
 
-#### Ramsha
+#### Ramsa
 
-Before starting Ramsha, remember to exchange peace starting from the presider.
+Before starting Ramsa, remember to exchange peace starting from the presider.
 
-To start, click on the bookmark side menu and navigate to "Common Order" --> "Ramsha". Follow this common order untill you reach the "Psalm (of the day)", to find this psalm, click on the bookmark side menu, navigate to "Seasons" --> [The current seaon](https://syrocalendar.com/#Season) --> The liturgical day --> Ramsha --> [Click the # week of the season](https://syrocalendar.com/#Season). The page references are hyperlinked to take you directly to the page.
+To start, click on the bookmark side menu and navigate to "Common Order" --> "Ramsa". Follow this common order untill you reach the "Psalm (of the day)", to find this psalm, click on the bookmark side menu, navigate to "Seasons" --> [The current seaon](https://syrocalendar.com/#Season) --> The liturgical day --> Ramsa --> [Click the # week of the season](https://syrocalendar.com/#Season). The page references are hyperlinked to take you directly to the page.
 
-During Ramsha we chant a single Psalm. The Deacon starts by chanting the first verse, followed by "Alleluia, Alleluia, Alleluia." (During the Season of Great Fast, the Qanona / Antiphon is chanted instead of the Alleluias). The community sits and takes turns chanting the Psalm, starting from the first verse, this time without the Qanona / Antiphon / Alleluias. At the end of the Psalm, the Deacon chants the doxology (Glory be to the Father, and to the Son, and to the Holy Spirit. From eternity and forever, Amen.), followed by the Qanona / Antiphon (same as the start), then "Let us pray. Peace be with us." The congregation stands at the doxology.
+During Ramsa we chant a single Psalm. The Deacon starts by chanting the first verse, followed by "Alleluia, Alleluia, Alleluia." (During the Season of Great Fast, the Qanona / Antiphon is chanted instead of the Alleluias). The community sits and takes turns chanting the Psalm, starting from the first verse, this time without the Qanona / Antiphon / Alleluias. At the end of the Psalm, the Deacon chants the doxology (Glory be to the Father, and to the Son, and to the Holy Spirit. From eternity and forever, Amen.), followed by the Qanona / Antiphon (same as the start), then "Let us pray. Peace be with us." The congregation stands at the doxology.
 
-To continue, click on the bookmark side menu and navigate to "Common Order" --> "Ramsha" --> "Psalm of the Day". On Ferial days, the following prayer and Hymn of Incense is omitted.
+To continue, click on the bookmark side menu and navigate to "Common Order" --> "Ramsa" --> "Psalm of the Day". On Ferial days, the following prayer and Hymn of Incense is omitted.
 
-At the Onitha daqdam (Hymn before the Psalm), with the Deacon initially starting, the congregation takes up the prayers as two sides. Naviagate to the correct seasonal day, once finished navigate back either using the hyperlink or click on the bookmark side menu and navigate to "Common Order" --> "Ramsha" --> "Onitha daqdam"
+At the Onitha daqdam (Hymn before the Psalm), with the Deacon initially starting, the congregation takes up the prayers as two sides. Naviagate to the correct seasonal day, once finished navigate back either using the hyperlink or click on the bookmark side menu and navigate to "Common Order" --> "Ramsa" --> "Onitha daqdam"
 
-At the Onitha d’Wasar (Hymn after the Psalm), with the Deacon initially starting, the congregation takes up the prayers as two sides. Naviagate to the correct seasonal day, once finished navigate back either using the hyperlink or click on the bookmark side menu and navigate to "Common Order" --> "Ramsha" --> "Onitha d’Wasar"
+At the Onitha d’Wasar (Hymn after the Psalm), with the Deacon initially starting, the congregation takes up the prayers as two sides. Naviagate to the correct seasonal day, once finished navigate back either using the hyperlink or click on the bookmark side menu and navigate to "Common Order" --> "Ramsa" --> "Onitha d’Wasar"
 
 Gospel of the Day can be found using the instructions detailed above in **Reading of the Day**
 
-At the Onitha d’Ramsa/d’Wasaliqe (Evening Anthem), with the Deacon initially starting, the congregation takes up the prayers as two sides. Naviagate to the correct seasonal day, once finished navigate back either using the hyperlink or click on the bookmark side menu and navigate to "Common Order" --> "Ramsha" --> "Onitha d’Ramsa". Note that for the Aswasa / Suraya, the Deacon starts by chanting the first verse, followed by "Alleluia, Alleluia, Alleluia.". The community takes turns chanting the Psalm, starting from the first verse, this time without the Alleluias. At the end of the Psalm, the Deacon chants the doxology (Glory be to the Father, and to the Son, and to the Holy Spirit. From eternity and forever, Amen.), followed by the Alleluias, then "Let us pray. Peace be with us."
+At the Onitha d’Ramsa/d’Wasaliqe (Evening Anthem), with the Deacon initially starting, the congregation takes up the prayers as two sides. Naviagate to the correct seasonal day, once finished navigate back either using the hyperlink or click on the bookmark side menu and navigate to "Common Order" --> "Ramsa" --> "Onitha d’Ramsa". Note that for the Aswasa / Suraya, the Deacon starts by chanting the first verse, followed by "Alleluia, Alleluia, Alleluia.". The community takes turns chanting the Psalm, starting from the first verse, this time without the Alleluias. At the end of the Psalm, the Deacon chants the doxology (Glory be to the Father, and to the Son, and to the Holy Spirit. From eternity and forever, Amen.), followed by the Alleluias, then "Let us pray. Peace be with us."
 
-At the end of Ramsha, remember to exchange peace starting from the presider
+At the end of Ramsa, remember to exchange peace starting from the presider
 
 #### Lelya
 
 Before starting Lelya, remember to exchange peace starting from the presider.
 
-To start, click on the bookmark side menu and navigate to "Common Order" --> "Lelya". Follow this common order untill you reach the "Marmitha (Psalms of the day)", to find this Marmitha, click on the bookmark side menu, navigate to "Seasons" --> [The current seaon](https://syrocalendar.com/#Season) --> The liturgical day --> Lelya --> [Click the # week of the season](https://syrocalendar.com/#Season). The page references are hyperlinked to take you directly to the page.
+To start, click on the bookmark side menu and navigate to "Common Order" --> "Lelya". Follow this common order untill you reach the "Marmitha (Psalms of the day)", to find this Marmitha, click on the bookmark side menu, navigate to "Seasons" --> [The current season](https://syrocalendar.com/#Season) --> The liturgical day --> Lelya --> [Click the # week of the season](https://syrocalendar.com/#Season). The page references are hyperlinked to take you directly to the page.
 
-During Lelya we chant a single Marmitha (a collection of 3 Psalms). The Deacon starts by chanting the first verse, followed by "Alleluia, Alleluia, Alleluia." (During the Season of Great Fast, the Qanona / Antiphon is chanted instead of the Alleluias). The community sits and takes turns chanting the Psalm, starting from the first verse, this time without the Qanona / Antiphon / Alleluias. At the end of the Psalm, the Deacon chants the doxology (Glory be to the Father, and to the Son, and to the Holy Spirit. From eternity and forever, Amen.), followed by the Qanona / Antiphon / Alleluias (same as the start), then "Let us pray. Peace be with us." The congregation stands at the doxology.
+During Lelya we chant a single Marmitha (a set of, generally 3, Psalms). The Deacon starts by chanting the first verse, followed by "Alleluia, Alleluia, Alleluia." (During the Season of Great Fast, the Qanona / Antiphon is chanted instead of the Alleluias). The community sits and takes turns chanting the Psalm, starting from the first verse, this time without the Qanona / Antiphon / Alleluias. At the end of the Psalm, the Deacon chants the doxology (Glory be to the Father, and to the Son, and to the Holy Spirit. From eternity and forever, Amen.), followed by the Qanona / Antiphon / Alleluias (same as the start), then "Let us pray. Peace be with us." The congregation stands at the doxology.
 
 To continue, click on the bookmark side menu and navigate to "Common Order" --> "Lelya" --> "Marmitha".
 
