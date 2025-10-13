@@ -71,6 +71,3 @@ At the end of Sapra, remember to exchange peace starting from the presider
 
 ### Bookmark Side Menu on Desktop
 ![](/images/desktop.png)
-
-### Bookmark Side Menu on Phone
-![](/images/phone.jpeg)
