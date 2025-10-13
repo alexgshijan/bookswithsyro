@@ -70,7 +70,7 @@ At the Onitha d’Sapra (Morning Anthem of the day), with the Deacon initially s
 At the end of Sapra, remember to exchange peace starting from the presider
 
 ### Bookmark Side Menu on Desktop
-![desktop.png]
+![](desktop.png)
 
 ### Bookmark Side Menu on Phone
-![phone.jpeg]
+![](phone.jpeg)
