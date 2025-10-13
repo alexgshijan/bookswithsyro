@@ -68,3 +68,9 @@ To start, click on the bookmark side menu and navigate to "Common Order" --> Sap
 At the Onitha d’Sapra (Morning Anthem of the day), with the Deacon initially starting, the congregation takes up the prayers as two sides. Naviagate to the correct seasonal day, once finished navigate back either using the hyperlink or click on the bookmark side menu and navigate to "Common Order" --> Sapra --> "Onitha d’Sapra", Deacon starts chanting the morning hymn, again take this up as two sides.
 
 At the end of Sapra, remember to exchange peace starting from the presider
+
+### Bookmark Side Menu on Desktop
+![desktop.jpeg]
+
+### Bookmark Side Menu on Phone
+![phone.jpeg]
