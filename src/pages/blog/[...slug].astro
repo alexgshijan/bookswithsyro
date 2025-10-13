@@ -30,7 +30,9 @@ const { post, author } = Astro.props;
 const { Content } = await render(post);
 export const prerender = true;
 ---
-
+<head>
+<meta property="og:image" content={post.data.heroImage} />
+</head>
 <BlogPost {...post.data} author={author}>
 	<Content />
 		{author ? (
