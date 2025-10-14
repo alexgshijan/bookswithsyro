@@ -27,7 +27,7 @@ Before starting Ramsa, remember to exchange peace starting from the presider.
 
 To start, click on the bookmark side menu and navigate to "Common Order" --> "Ramsa". Follow this common order untill you reach the "Psalm (of the day)", to find this psalm, click on the bookmark side menu, navigate to "Seasons" --> [The current seaon](https://syrocalendar.com/#Season) --> The liturgical day --> Ramsa --> [Click the # week of the season](https://syrocalendar.com/#Season). The page references are hyperlinked to take you directly to the page.
 
-During Ramsa we chant a single Psalm. The Deacon starts by chanting the first verse, followed by "Alleluia, Alleluia, Alleluia." (During the Season of Great Fast, the Qanona / Antiphon is chanted instead of the Alleluias). The community sits and takes turns chanting the Psalm, starting from the first verse, this time without the Qanona / Antiphon / Alleluias. At the end of the Psalm, the Deacon chants the doxology (Glory be to the Father, and to the Son, and to the Holy Spirit. From eternity and forever, Amen.), followed by the Qanona / Antiphon / Alleluias (same as the start), then "Let us pray. Peace be with us." The congregation stands at the doxology.
+During Ramsa we chant a single Psalm (specific to the day). The Deacon starts by chanting the first verse, followed by "Alleluia, Alleluia, Alleluia." (During the Season of Great Fast, the Qanona / Antiphon is chanted instead of the Alleluias). The community sits and takes turns chanting the Psalm, starting from the first verse, this time without the Qanona / Antiphon / Alleluias. At the end of the Psalm, the Deacon chants the doxology (Glory be to the Father, and to the Son, and to the Holy Spirit. From eternity and forever, Amen.), followed by the Qanona / Antiphon / Alleluias (same as the start), then "Let us pray. Peace be with us." The congregation stands at the doxology.
 
 To continue, click on the bookmark side menu and navigate to "Common Order" --> "Ramsa" --> "Psalm of the Day". On Ferial days, the following prayer and Hymn of Incense is omitted.
 
@@ -37,7 +37,7 @@ At the Onitha d’Wasar (Hymn after the Psalm), with the Deacon initially starti
 
 Gospel of the Day can be found using the instructions detailed above in **Reading of the Day**
 
-At the Onitha d’Ramsa/d’Wasaliqe (Evening Anthem), with the Deacon initially starting, the congregation takes up the prayers as two sides. Naviagate to the correct seasonal day, once finished navigate back either using the hyperlink or click on the bookmark side menu and navigate to "Common Order" --> "Ramsa" --> "Onitha d’Ramsa". Note that for the Aswasa / Suraya, the Deacon starts by chanting the first verse, followed by "Alleluia, Alleluia, Alleluia.". The community takes turns chanting the Psalm, starting from the first verse, this time without the Alleluias. At the end of the Psalm, the Deacon chants the doxology (Glory be to the Father, and to the Son, and to the Holy Spirit. From eternity and forever, Amen.), followed by the Alleluias, then "Let us pray. Peace be with us."
+At the Onitha d’Ramsa/d’Wasaliqe (Evening Anthem), with the Deacon initially starting, the congregation takes up the prayers as two sides. Naviagate to the correct seasonal day. Note that for the Aswasa / Suraya, the Deacon starts by chanting the first verse, followed by "Alleluia, Alleluia, Alleluia.". The community takes turns chanting the Psalm, starting from the first verse, this time without the Alleluias. At the end of the Psalm, the Deacon chants the doxology (Glory be to the Father, and to the Son, and to the Holy Spirit. From eternity and forever, Amen.), followed by the Alleluias, then "Let us pray. Peace be with us."
 
 At the end of Ramsa, remember to exchange peace starting from the presider
 
@@ -57,11 +57,11 @@ At the Subaha, with the Deacon initially starting, the congregation takes up the
 
 Epistle of the Day can be found using the instructions detailed above in **Reading of the Day**. Following this, the Deacon should chant the Karozutha, once finished navigate back either using the hyperlink or click on the bookmark side menu and navigate to "Common Order" --> "Lelya" --> "Final Slotha"
 
-At the end of Lelya, there is no exchange of peace.
+At the end of Lelya, [there is no exchange of peace](/blog/loth).
 
 #### Sapra
 
-At the start of Sapra, there is no exchange of peace.
+At the start of Sapra, [there is no exchange of peace](/blog/loth).
 
 To start, click on the bookmark side menu and navigate to "Common Order" --> Sapra (choose between the ferial and solemn, as appropriate).
 
