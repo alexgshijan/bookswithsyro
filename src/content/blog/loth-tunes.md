@@ -63,11 +63,11 @@ author: alexgshijan
       </td>
     </tr>
     <tr>
-      <td>Kambal Maran (6)</td>
+      <td>Thekre Lak (6)</td>
       <td></td>
       <td>
         <audio controls>
-          <source src="/audio/KambalMaran-6.m4a" type="audio/mpeg">
+          <source src="/audio/ThekreLak.m4a" type="audio/mpeg">
         </audio>
       </td>
     </tr>
@@ -95,6 +95,15 @@ author: alexgshijan
       <td>
         <audio controls>
           <source src="/audio/NightHymn.mp3" type="audio/mpeg">
+        </audio>
+      </td>
+    </tr>
+    <tr>
+      <td>Qambel Maran</td>
+      <td></td>
+      <td>
+        <audio controls>
+          <source src="/audio/QambelMaran.m4a" type="audio/mpeg">
         </audio>
       </td>
     </tr>
