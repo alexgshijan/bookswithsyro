@@ -19,12 +19,13 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
   style="border: none;">
 </iframe>
       <p>
+      <div id="daily-readings"></div>
 <b>Additional Assistance</b><br>
 For a How-To Guide for using the above PDF, <a href="/blog/loth-guide">click here</a> <br>
 For a list of tunes you can use when using the above PDF, <a href="/blog/loth-tunes">click here</a> <br>
-For a brief look into what are the liturgies of the hours, <a href="/blog/loth">click here</a> 
-
-<script>
+For a brief look into what are the liturgies of the hours, <a href="/blog/loth">click here</a>  <br>
+      </p>
+      <script>
 function getTomorrowDateString() {
   const tomorrow = new Date();
   tomorrow.setDate(tomorrow.getDate() + 1);
@@ -32,6 +33,29 @@ function getTomorrowDateString() {
   const month = String(tomorrow.getMonth() + 1).padStart(2, '0');
   const year = tomorrow.getFullYear();
   return `${day}-${month}-${year}`;
+}
+
+function renderDailyReadings(data) {
+  const set = data.Set1?.[0];
+  if (!set) return;
+
+  const day = set.DayDescription_Eng || 'Unknown Day';
+  const season = set.SeasonName_Eng_Full || 'Unknown Season';
+  const reading = set.Reading3_Eng || set.Reading1_Eng || 'No reading available';
+  const gospel = set.ReadingGospal_Eng || 'No gospel reading available';
+
+  const container = document.getElementById('daily-readings');
+  if (!container) return;
+
+  container.innerHTML = `
+    <p><b>Tomorrow’s Liturgy Info</b><br>
+    <b>Day:</b> ${day}<br>
+    <b>Season:</b> ${season}<br>
+    <b>Reading:</b> ${reading}<br>
+    <b>Gospel:</b> ${gospel}
+    </p>
+    <br>
+  `;
 }
 
 function fetchDailyReadings() {
@@ -44,16 +68,13 @@ function fetchDailyReadings() {
       return res.json();
     })
     .then(data => {
-      console.log("Daily readings for", dateStr, data);
-      // You can insert DOM update logic here if needed
+      renderDailyReadings(data);
     })
     .catch(err => console.error("Error fetching readings:", err));
 }
 
-// Run on page load
 document.addEventListener('DOMContentLoaded', fetchDailyReadings);
 </script>
-      </p>
     </main>
     <Footer />
   </body>
