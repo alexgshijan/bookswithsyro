@@ -9,7 +9,7 @@ As I noted in my article [What are the Liturgy of The Hours?](/blog/loth), The L
 
 ### Reading of the Day
 
-The Liturgical day starts with Ramsa (Evening Prayer) of the previous day. There are still remnants of this understanding of the day in celebrations of Christmas Eve, and similar times. That is to say Liturgical Sunday starts with "Saturday" 's Ramsa. As such the readings for Ramsa and Lelya must also be from the following day. I would recommend using [SyroCalender's daily reading selector](https://syrocalendar.com/daily-readings/) or referencing the [Syro-Malabar reading calendar](https://www.syromalabarliturgy.org/assets/uploads/pdfs/b35ad-panchangam-2025-english.pdf) / app (SyroMalabar Praarthanakal or SyroMalabar) to select the following day's readings.
+The Liturgical day starts with Ramsa (Evening Prayer) of the previous day. There are still remnants of this understanding of the day in celebrations of Christmas Eve, and similar times. That is to say Liturgical Sunday starts with "Saturday" 's Ramsa. As such the readings for Ramsa and Lelya must also be from the following day. I would recommend using [SyroCalender's daily reading selector](https://syrocalendar.com/daily-readings/) or referencing the [Syro-Malabar reading calendar](https://www.syromalabarliturgy.org/assets/uploads/pdfs/b35ad-panchangam-2025-english.pdf) / app (SyroMalabar Praarthanakal or SyroMalabar) to select the following day's readings. This is also available on the bottom of our [Liturgy of The Hours](/loth) page.
 
 ### The Hours of the Day
 
