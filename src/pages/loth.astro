@@ -23,6 +23,20 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 For a How-To Guide for using the above PDF, <a href="/blog/loth-guide">click here</a> <br>
 For a list of tunes you can use when using the above PDF, <a href="/blog/loth-tunes">click here</a> <br>
 For a brief look into what are the liturgies of the hours, <a href="/blog/loth">click here</a> 
+
+<script>
+getJSON('https://syrocalendar.com/SyroMalabarCalendar/?Mode=JSON&Type=DailyReadings&Date=07-05-2025',  function(err, tmtm) {    
+                    if (err != null) {
+                        console.error("Errr" + err);
+                    } 
+else
+{
+console.log(tmtm);
+}
+});
+</script>
+
+
       </p>
     </main>
     <Footer />
