@@ -67,7 +67,7 @@ Our spiritual pilgrimage, therefore, is not the search of lost souls to find a h
 Rather, our pilgrimage is a response to the call of Isho who reveals Himself in the Holy Qurbana; in the Scriptures at the Bema, and in the broken Bread at the Madbaha. [cf. Lk 24:27-35]
 
 > “Fill us with Your grace and strengthen us, who have listened to the Holy Word, to take part in the mysteries of Your Pesaha and to be conformed unto You.”  
-> *Conclusion of the Karozutha, Gilyana d’ Maran - Feast of the Transfiguration of our Lord*  
+*Conclusion of the Karozutha, Gilyana d’ Maran - Feast of the Transfiguration of our Lord*  
 
 ---
 [^1]: Maniyattu P, *East Syriac Theology: An Introduction* (2007)  
