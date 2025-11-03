@@ -28,7 +28,9 @@ For a brief look into what are the liturgies of the hours, <a href="/blog/loth">
       <script>
 function getTomorrowDateString() {
   const tomorrow = new Date();
+  if (tomorrow.getHours() >= 6) {
   tomorrow.setDate(tomorrow.getDate() + 1);
+  }
   const day = String(tomorrow.getDate()).padStart(2, '0');
   const month = String(tomorrow.getMonth() + 1).padStart(2, '0');
   const year = tomorrow.getFullYear();
