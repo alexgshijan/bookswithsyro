@@ -5,7 +5,6 @@ pubDate: "Aug 10 2025"
 heroImage: "/images/pilgrimage.png"
 author: jeffrinsaju
 ---
-
 ### The Pilgrim Church
 
 Spirituality is the pilgrimage towards Heaven, which is made by every believer as a response to the call of God. Every son and daughter of the Church is a pilgrim who journeys through this world seeking Heaven, ‘for we have no city which is permanent here; but we are seeking one that is to come.’ [Heb 13:14]
@@ -25,8 +24,6 @@ The Qestroma, situated between the Qanke and Hykala, is where the altar servers 
 The other prominent structures are the Beth Gazze (labelled BG), Sqaqona, Bema, Beth Mamodisa (baptistry), Beth M’shamshana (sacristy) and Beth Sahade (reliquary).
 
 The pilgrim life of a Nazrani is shown in the liturgical space (from right to left): our Christian life begins at baptism at the Beth Mamodisa, then we are divinised by receiving the Holy Qurbana from the Madbaha during our earthly life, so that when we pass from this world, we will be counted among the Saints at the Beth Sahade.
-
-
 
 ### Praying Toward the East *ad orientem*
 
