@@ -6,13 +6,13 @@ heroImage: "/images/pilgrimage.png"
 author: jeffrinsaju
 ---
 
-### The Pilgrim Church  
+### The Pilgrim Church
 
 Spirituality is the pilgrimage towards Heaven, which is made by every believer as a response to the call of God. Every son and daughter of the Church is a pilgrim who journeys through this world seeking Heaven, ‘for we have no city which is permanent here; but we are seeking one that is to come.’ [Heb 13:14]
 
 The Church sees herself as a ship travelling through a dangerous sea, aiming towards the harbour of eternal peace. The dangerous sea represents the attacks of the devil, and the harbour of eternal peace is Heaven.[^1] Our spirituality as members of the Church is participation in her pilgrimage toward Heaven in the liturgy.[^2]
 
-### Liturgical Space  
+### Liturgical Space
 
 Proper celebration of the liturgy is enabled by the liturgical space; the church and the various areas within it. Mar Aprem teaches that the liturgical space makes Isho present in our space and time.[^3]
 
@@ -40,7 +40,7 @@ In East Syriac churches, the Mar Sliva is placed on the Eastern wall. The Body o
 
 Facing the Mar Sliva in the liturgy represents our spiritual pilgrimage to the Kingdom of the Risen Lord, as well as His return from the East.
 
-### Sqaqona  
+### Sqaqona
 
 The Sqaqona is a narrow pathway with railing which runs between the Qanke (sanctuary) and the Bema.
 
@@ -52,7 +52,7 @@ To follow this narrow path, our eyes must always be oriented toward Heaven, rath
 
 ‘How small is the gate, and narrow the way, that leads to salvation; and those who find it are few!’ [Mt 7:14]
 
-### Bema  
+### Bema
 
 The Bema is a raised platform with railing, situated in the centre of the Hykala (nave), and it is where the Liturgy of the Word is celebrated.
 
@@ -66,14 +66,14 @@ Our spiritual pilgrimage, therefore, is not the search of lost souls to find a h
 
 Rather, our pilgrimage is a response to the call of Isho who reveals Himself in the Holy Qurbana; in the Scriptures at the Bema, and in the broken Bread at the Madbaha. [cf. Lk 24:27-35]
 
-> “Fill us with Your grace and strengthen us, who have listened to the Holy Word, to take part in the mysteries of Your Pesaha and to be conformed unto You.”  
-*Conclusion of the Karozutha, Gilyana d’ Maran - Feast of the Transfiguration of our Lord*  
+> “Fill us with Your grace and strengthen us, who have listened to the Holy Word, to take part in the mysteries of Your Pesaha and to be conformed unto You.”
+*Conclusion of the Karozutha, Gilyana d’ Maran - Feast of the Transfiguration of our Lord*
 
 ---
-[^1]: Maniyattu P, *East Syriac Theology: An Introduction* (2007)  
-[^2]: *Catechism of the Catholic Church*, 1090  
-[^3]: Toma W, *Basic Features of the Liturgy…* (2016)  
-[^4]: Pulluthuruthiyil AJ et al., *Syro-Malabar Church Architecture and Traditions* (2024)  
-[^5]: Basil, *De Spiritu Sancto* 27  
-[^6]: Ratzinger J, *The Spirit of the Liturgy* (2000)  
-[^7]: *Catechism of the Catholic Church*, 1088  
+[^1]: Maniyattu P, *East Syriac Theology: An Introduction* (2007)
+[^2]: *Catechism of the Catholic Church*, 1090
+[^3]: Toma W, *Basic Features of the Liturgy…* (2016)
+[^4]: Pulluthuruthiyil AJ et al., *Syro-Malabar Church Architecture and Traditions* (2024)
+[^5]: Basil, *De Spiritu Sancto* 27
+[^6]: Ratzinger J, *The Spirit of the Liturgy* (2000)
+[^7]: *Catechism of the Catholic Church*, 1088
