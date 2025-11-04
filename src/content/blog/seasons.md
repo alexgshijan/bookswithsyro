@@ -1,6 +1,6 @@
 ---
-title: "Seasons of the Syro-Malabar Church"
-description: ""
+title: "Seasons of the Church"
+description: "A look into the seasons of the syro-malabar church and the lessons the church is trying to impart on us through this pilgrimage through time."
 pubDate: "Jun 15 2025"
 heroImage: "/images/seasons.png"
 author: alexgshijan
@@ -32,13 +32,23 @@ It is a time of joy recalling the new life obtained through the resurrection of 
 
 This season reminds us that all those who have received baptism and anointing are ‘beıng sent’. The main themes of this season are the works of the Holy Sprit, the deep relationship between the apostles and the Church i.e., the people of God, the spirit and unity of the early Church and the mission and missionary nature of the Church. Filled with the Holy Spirit, let us all try to be witnesses of Christ and His Gospel.
 
-### Season of Summer 
+### Season of Summer (Khaitha)
 
-It is the season of harvest. This season reminds us of the growth of the Church as a result of the missionary activities of the Apostles. Commemoration of the apostles and martyrs who were faithful to the Church is a special feature of this season. It reminds also of our responsibility to follow their lifestyle. It also reminds us that we too should be faithful to our Christian vocation and bring forth fruits of our Christian life.
+This season connects the season of Apostles with that of Eliȷah-Cross-Moses. It reminds us of the activities of the Church and the neccesity of being prepared for the second coming of the Saviour. 
+
+It is a time that commemorates and celebrates the growth of the Church as well as the harvesting of spiritual fruits. This season reminds us that the Church is rooted and extended to the far corners of the world by the missionary activities of the martyrs and apostles. The Church invites the faithful to imitate this exemplary life to producee spiritual fruits. The Lord patiently awaits for the fruits of goodness from the children of the Church,
+
+The readings of this season give warnings about the tradegies if we do not produce good fruit. Therefore the season of Khaitha teaches to store treasures in heaven without being trapped in wordliness
 
 ### Season of Eliȷah-Cross-Moses
 
-This season points to the second coming of our Lord and the ultimate victory of the cross. The central point of this season is the feast of the exaltation of the Cross. The main themes during this season are the end of the world, death and the last judgment. It exhorts us to be always alert against the temptations of the devil and to eradicate sin from our lives, and be always prepared for the second coming of Christ.
+This season is symbolized by the Slīva (Cross), representing victory over evil, death, and suffering. It commemorates how Jesus fulfills the Old Testament through the New Covenant. The Slīva invites us to be vigilant against temptations, be faithful and wait for the second coming of Jesus which sets us free from our sins.
+
+In the Epiphany, this fulfillment of the Old Testament is made clear. Moses, the Law of the Old Testament, and Elijah, the Prophets of the Old Testament, are present with Christ during his transfiguration when God's voice from heaven commands us to "Listen to Him". Thus the Law and the Prophets in the Old Testament find their fulfillment in Jesus, the living embodiement of the New Covenenat.
+
+The Sliva (Cross) invites the faithful to embrace their own suffering, like Jesus who glorified God through his complete surrendance and obedience to His Father. The Syro-Malabar Church uses the Sliva as a symbol for salvation. Thus, we celebrate the Feast of the Exaltation of the Sliva. A parallel to (type of) the Sliva within the old testament is that of the Bronze Serpent. Just as Moses lifted up the Bronze Serpent in the wilderness (John 3:14a), so to was the Son of Man lifted up for our sake (John 3:14b). Just as the Israelites were saved by looking at the Bronze Serpent, we are called to set our gaze to Jesus on the Sliva for our salvation.
+
+The overarching theme of this season is the victory of the Sliva over evil, death and suffering. In this season we commemorate the Old Testament while preparing for the Second Coming.
 
 ### Season of the Dedication of the Church
 
@@ -55,4 +65,4 @@ The Season of Dedication consists of four weeks to reflect on Four significant d
 
 With each dedication symbolising a step towards true Worship. this season reminds us of God's call to consecrate ourselves as His people and prepare for the eternal dwelling with Christ. However, only those who remain vigilant, like the wise virgins, will be ready to enter the tabernacle of heaven when the Master comes. Just as in the parable of the ten virgins, the Church - the Bride - must endure trials and remain watchful to prepare for her bridgegroom's arrival.
 
-in this season, the Church teaches us to live with heaven in our sights. Though this world will pass away, we are called to remain vigilant, preparing ourselves for Christ's return, so he may welcome us into his heavenly dwelling.
+In this season, the Church teaches us to live with heaven in our sights. Though this world will pass away, we are called to remain vigilant, preparing ourselves for Christ's return, so he may welcome us into his heavenly dwelling.
