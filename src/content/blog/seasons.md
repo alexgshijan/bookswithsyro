@@ -42,4 +42,17 @@ This season points to the second coming of our Lord and the ultimate victory of 
 
 ### Season of the Dedication of the Church
 
-In this season, we remember that at the end of time, Jesus will offer the Church, which is His spouse, to the Father after the Last Judgment. Thus, the liturgical year reminds us that as Christians, we are called to attain the eternal glory through the Church.
+In this season, the faithful commemorates the meeting of the Church with Christ in person. Just as a bride meeting her groom at the altar, the prayers and hymns of the season celebrates the joy of the bride. The Church adorned in glory by her bridegroom, Christ.
+
+The dedication of the Church is the last liturgical season of the calendar year. It signifies the victory of the Church in the eschaton (final event in divine plan) culminating at entry of Church in Heavenly Jerusalem.
+
+The Season of Dedication consists of four weeks to reflect on Four significant dedication of Holy Places in the Old Testament.
+
+- The Tabernacle -  built by Moses in the wilderness (Exodus 40:1-17)
+- The Tent of Meeting - established by Joshua in Canaan, the Promised Land (Joshua 18:1)
+- Solomon's Temple - the First Permanent Temple (1 Kings 8:62-66)
+- The Second Temple - Restoration of the Temple after Babylonian exile (Ezra 3:2)
+
+With each dedication symbolising a step towards true Worship. this season reminds us of God's call to consecrate ourselves as His people and prepare for the eternal dwelling with Christ. However, only those who remain vigilant, like the wise virgins, will be ready to enter the tabernacle of heaven when the Master comes. Just as in the parable of the ten virgins, the Church - the Bride - must endure trials and remain watchful to prepare for her bridgegroom's arrival.
+
+in this season, the Church teaches us to live with heaven in our sights. Though this world will pass away, we are called to remain vigilant, preparing ourselves for Christ's return, so he may welcome us into his heavenly dwelling.
