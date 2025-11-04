@@ -30,7 +30,13 @@ It is a time of joy recalling the new life obtained through the resurrection of 
 
 ### Season of Apostles
 
-This season reminds us that all those who have received baptism and anointing are ‘beıng sent’. The main themes of this season are the works of the Holy Sprit, the deep relationship between the apostles and the Church i.e., the people of God, the spirit and unity of the early Church and the mission and missionary nature of the Church. Filled with the Holy Spirit, let us all try to be witnesses of Christ and His Gospel.
+This season begins with the Feast of Pentecost, it focuses on the gift of the Ruha d'Qudsha and the divine call to preach the salvific message.
+
+In the Old Testament, the feast of Pentecost was known as the feast of offering where the first fruits of the harvest season were gifted to God. After the triumph of Isho Mshiha, the new meaning of Pentecost became the descent of the Ruha d'Qudsha and the official inaugaration of the Church known as "Ecclesia".
+
+Shlihas, meaning "ones who are sent" in Syriac, were filled with the Ruha d'Qudsha and sent across the world to proclaim the salvific message.
+
+In this season we remember the mission the Shlihas carried out fearlessly - a reminder for us to rely on the Ruha d'Qudsha to help us be witnesses of Isho Mshiha in any situation. The season reminds us of our call to bear witness to the Word of God with courage and conviction, just like the Shlihas.
 
 ### Season of Summer (Khaitha)
 
