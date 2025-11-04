@@ -15,4 +15,9 @@ export default defineConfig({
       enabled: true,
     },
   }),
+  image: {
+    service: {
+      entrypoint: 'astro/assets/services/compile'
+    }
+  },
 });
