@@ -8,25 +8,72 @@ author: alexgshijan
 
 Within the context of the Qurbana and Divine Praises, each liturgical season introduces specific psalms, hymns, and readings tied to key moments in salvation history: the angel's annunciation to Mary, the birth of Christ, his baptism, his battle with the devil in the desert, his passion, death, resurrection, and ascension, the descent of the Holy Spirit, the preaching of the Apostles, the repentance of the nations, the victory of the cross and the final crowning of the Church in heavenly glory. Year after year, the Church invites us to be absorbed not only into our own lives and concerns, but more and more into the life of Christ, so that we can live with eyes open to a larger world, where God's salvation is the focus. These aren’t abstract commemorations. They are invitations to reorder your time, attention, and affections around the events that define the Christian faith.
 
-### Season of Annunciation
+### Season of Annunciation (Suvara)
 
-This season prepares us for the feast of the Nativity of Jesus. This season is called ‘Subbara’ which in Syriac language means ‘declaration’, ‘announcement’ etc. This season recalls the announcement of the birth of John the Baptist, the promise of salvation offered by God, God’s covenant with humanity and the prophecies about the Saviour. During this season, we also meditate on the role of Mary in the history of Salvation.
+This season centers around the joyful announcement of the Incarnation of Isho Mshiha and fulfillment of the Old Testament. It is the first liturgical season and consists of the 4 weeks leading up to Christmas. Suvara is a syriac word meaning "hope" or "expectation", in malayalam it is called "Mangalavarthakalam" or the Seaon of Good News.
 
-### Season of Nativity
+Through Christ's Incarnation, God entered the world in human form, preparing the way for the salvific sacrifice to come. The father aims to lead all of mankind to Jesus who is Emmanuel, "God with us".
 
-During this season, we commemorate the birth of Jesus, which is the central theme of this season, the fufillment of the expectations and prophesies of the Old Testament.
+This season's readings focus on the annunciation and messianic prophecies, highlighting God's unfolding plans. These include the annunciation of the births of Issac, Samson, Yohanan Mamdana (John the Baptist) and Isho. Each prophecy reveals how Jesus' birth fulfills God's promise to restore the world through the Mshiha.
+
+In this season Marth Mariyam, Mother Mary, holds a central place of veneration. She is the divine instrument through whom God entered the world by humbly submitting herself to God's will with her Fiat, "Let it be done to me according to Your Word." By accepting God's plan, she became the Theotokos, and a model for all believers in her faith and obedience.
+
+During this Season, the Church invites us to prepare for the coming of the Messiah through prayer and penance in a 25-day fast.
+
+### Season of Nativity (Yalda)
+
+This season is the shortest season within our calender, with only 2 weeks. Over these two weeks we celebrate the birth of Isho Mshiha as the Saviour of the world. Yalda is a syriac word meaning "Birth", in malayalam it is called "Piravikalam" or Seaon of Birth.
+
+In Isho's time, shepherds were often isolated and seen as unclean because of their work. Their presence in the nativity story shows that God came for all, including the poor, humble and marginalised [Luke 2:15].
+
+The Magi followed the star, seeking truth with minds open to divine guidance, leading them to the child Isho. They knelt before him, offered him gifts, and were the first to worship Him as God. By accepting the adoration of these Gentiles, Isho revealed that His invitation to redemption embraces all of humanity, not just the Jews.
+
+- Frankincese - Divinity - Isho the Son of God
+- Gold - Royalty - Isho the King
+- Myrrh - Suffering - Iho the Prophet
+
+By choosing to come into the world in the most modest and unassuming way, He revealed God's boundless love for all, especially the poor and the humble [cf. Luke 2:7]. In this season, we joyfully celebrate the birth of Maran Isho Mshiha, who brings hope and light into our lives.
 
 ### Season of Epiphany (Denha)
 
-The word for Epiphany in Syriac is ‘Denha’ which means ‘dawn’, ‘revelation’, ‘manifestation’ etc. The most important themes commemorated during these days are the baptism of Jesus, His public life, His divine and human nature, His intimate relationship with the Father and the Holy Spirit and His self-emptying love. This period reminds us also of our own baptism and the responsibilities we have undertaken with it.
+The season is marked by reflections on the manifestation of Isho to the world. Denha is a Syriac word meaning "sunrise", "revelation", or "manifestation". 
 
-### Season of Great Lent (Sawmba Ramba)
+This season starts with the Feast of Denha commerating the baptism of Isho Mshiha, here the Holy Trinity is revealed, and Isho's public ministry commences.
 
-During this season, we meditate upon man’s sin and its consequences, the need for repentance and conversion, the infinite love and mercy of God towards repentant sinners and the passion, death and burial of Jesus Christ, in order to redeem us. The Church reminds us to spend the Lenten period in fervent prayer, sincere fasting and generous almsgiving and to eradicate our evil desires. Like Jesus who conquered death and rose again to eternal life, let us also die to sin and enter into eternal life.
+In Kerala, there are two Syriac traditions associated with the Feast.
+
+- Pindi-Kuthi Perunnal - Isho Mshiha, the Light of the world, is commemorated by raising a plantain trunk in front of the church, pierced with lamps & flags.
+- Rakkuli Perunnal - the faithful take a ritual bath in a water body near the church, commemorating the baptism of Isho
+
+This season reveals the personality of Isho through his public ministry as Messiah. A key event is the the miracle at the wedding feast of Cana, revealing His divine power and compassion.
+
+This season calls us trust in Isho as the source of light and salvation. As His followers, we are called to be instruments through which His light shines, allowing His love and grace to touch the lives of others.
+
+### Season of Great Fast (Sawmba Ramba)
+
+In this Season we refelect on Isho's temptation in the desert, His pasion, death and resurrection. Sawmba Ramba is a syriac phrase meaning Great Fast, "Nombukalam" in malayalam means "Season of Fasting".
+
+The Season begins with Pethurtha Sunday, meaning "turning back". IT signifies that the days of rich food and celebrations are over. Until the Sunday of Ressurection, marriages and public feasts are prohibited. We are encouraged to unite ourselves with Isho's passion and death by sharing our treasures and detaching from wordly things.
+
+The Syro-Malabar Church observes 50^* days of fasting in this season. It highlights the continuous period of preparation, similar to the Israelites' time in the desert. It also mirrors the 50 days of celebration from Resurrection to Pentecost.
+
+In her liturgical readings, the Church meditates on Biblical periods of preparation, trial, and suffering like:
+
+- The Israelites in the desert
+- Noah's family on the ark
+- Isho Mshiha's fasting and the temptation in the wilderness
+
+Over 7 weeks of fasting, penance and almsgibing, the Church invites us to turn back to God and embrace His unfailing love, revealed at Golgotha. We are called to prepare for our own deaths and vigilantly avoid sin to be resurrected into Isho Mshiha
 
 ### Season of Resurrection
 
-It is a time of joy recalling the new life obtained through the resurrection of our Saviour. The important themes are the resurrection of Christ, His victory over sin, death and Satan. The cross which was a sign of folly became the sign of redemption and glory, the resurrection of Christ as a pledge of our resurrection, His resurrection as a basis of Christian faith etc.
+This Season consists of the seven weeks between Easter and Pentecost. The Church celebrates Isho's victory over death and the new life through His resurrection.
+
+It highlights the origins of the Messianic community, symbolised by the sacrament of baptism. The early Syro-Malabar Church dedicated this season's first week to honouring the newly baptised, or "new Christians" [Romans 6:4-5]
+
+The Sunday after Easter commemorates St Thomas' profession of faith : "My Lord and My God" or in the Aramaic tongue, "Mar Walah".
+
+In this season, the church recalls Isho's promise to remain with His Bride for eterntiy. This promise was fulfilled when He gave authority to Peter, the apostles, and their successors to shepherd His flock and uphold His mission.
 
 ### Season of Apostles
 
