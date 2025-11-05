@@ -75,7 +75,7 @@ The Sunday after Easter commemorates St Thomas' profession of faith : "My Lord a
 
 In this season, the church recalls Isho's promise to remain with His Bride for eterntiy. This promise was fulfilled when He gave authority to Peter, the apostles, and their successors to shepherd His flock and uphold His mission.
 
-### Season of Apostles
+### Season of Apostles (Shliha)
 
 This season begins with the Feast of Pentecost, it focuses on the gift of the Ruha d'Qudsha and the divine call to preach the salvific message.
 
@@ -93,7 +93,7 @@ It is a time that commemorates and celebrates the growth of the Church as well a
 
 The readings of this season give warnings about the tradegies if we do not produce good fruit. Therefore the season of Khaitha teaches to store treasures in heaven without being trapped in wordliness
 
-### Season of Eliȷah-Cross-Moses
+### Season of Eliȷah-Cross-Moses (Eliya-Sleeva-Muse)
 
 This season is symbolized by the Slīva (Cross), representing victory over evil, death, and suffering. It commemorates how Jesus fulfills the Old Testament through the New Covenant. The Slīva invites us to be vigilant against temptations, be faithful and wait for the second coming of Jesus which sets us free from our sins.
 
