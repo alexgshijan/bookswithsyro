@@ -142,7 +142,7 @@
         {
             "text": {
                 "headline": "Report of Pantaleunus",
-                "text": "Alexandrian scholar, Pantaenus, visits and testifies to the presence of Christians in Malabar."
+                "text": "Alexandrian scholar, Pantaenus, visits and testifies to the presence of Christians in Malabar with the hebrew bible (Gospel of Mathew)."
             },
             "start_date":{
                 "year": 189
@@ -267,6 +267,18 @@
         },
         {
             "text": {
+                "headline": "Cosmas Indicopleustes",
+                "text": "Cosmas Indicopleustes, an Alexandrian Greek traveller and East-Syrian monk, writes about the presence of East-Syrian Christians in Malabar and nearby regions. He also mentions about a Bishop consecrated in Persia residing in Kalliana. The various Mar Thoma Sleeva (St. Thomas crosses) carved during this period and afterwards in South India testify to the presence of East-Syrian Christian communities in this region. Some Roman historians speak of the presence of a Monastery of Saint Thomas in India. The zealous missionaries of the East-Syrian Church spread the faith to the deserts of Arabia, North Africa, Central Asia, and further deep into India, Tibet, China, and probably even Japan."
+            },
+            "start_date":{
+                "year": 500
+            },
+            "end_date":{
+                "year": 600
+            }
+        },
+        {
+            "text": {
                 "headline": "The Catholicos-Patriarch Isho'Yahb III",
                 "text": "The Catholicos-Patriarch Isho'Yahb III (649-659) complaints about shortcomings by Metropolitan Shemon (Simon) of Fars [Beth Parsaye] in his handling of Indian bishoprics. The Patriarch raises India [Beth Hindaye] to a Metropolitan Province. "
             },
@@ -276,11 +288,94 @@
         },
         {
             "text": {
-                "headline": "Visit of Marco Polo",
+                "headline": "The Catholicos-Patriarchs Sliba-z'kha (714-728), Mar Timothy I",
+                "text": "The Church of India is, for a second time, raised to a Metropolitan Province by Mar Timothy I (780-823), the Catholicos-Patriarch. Hence, India is placed directly under the Catholicos-Patriarch of Babylon. However, the trade links with the Christian community of Fars continues. The Catholicos-Patriarch asks the Church of Malabar to get his confirmation of their selection of Metropolitan before informing the local rulers. Prior to that, Metropolitans were consecrated by placing the letter of the Patriarch on their head. This points to the possibility of native Bishops in Malabar. Missionaries and pilgrims from India travel to distant lands. One such East-Syrian monastery nurtured by Christian pilgrims from India has been discovered in the island of Sir Bani Yas, in modern Gulf state of UAE."
+            },
+            "start_date":{
+                "year": 700
+            },
+            "end_date":{
+                "year": 800
+            }
+        },
+        {
+            "text": {
+                "headline": "Mar Sabor and Mar Afroth in Quilon (Kollam)",
+                "text": "Arrival of the Church Builders - Mar Sabor and Mar Afroth in Quilon (Kollam), on the Malabar Coast. The duo is locally known as Kantheesangal (from the Syriac word for Saints - Khadishe). These bishops are accompanied from Persia by Christian immigrants and traders, probably fleeing persecution. The immigrants mix with the native Christians. The Malayalam Era (Calendar) begins with their arrival. "
+            },
+            "start_date":{
+                "year": 824
+            },
+            "end_date":{
+                "year": 825
+            }
+        },
+        {
+            "text": {
+                "headline": "Copper plate grants",
+                "text": "The local ruler of Kollam gives the Christian community, 72 grants and privileges engraved on copper plates. These plates are known as the Tarisa Palli Chepped. Tarsa is an old Persian name for Christians in the Persian Empire and it translates to 'God-Fearer'. Palli is the local word for Church. These saintly bishops are credited with building several churches and some churches are still locally known as the Kantheesangal churches - Akaparambu, Udayamperoor (Diamper), Kothanalloor and Kayamkulam. These copper plates are considered to be the 'Magna Carta of Saint Thomas Christians', perhaps first of its kind in the world, much earlier than prior to Magna Carta issued by King John of England in 1215 AD."
+            },
+            "start_date":{
+                "year": 849
+            }
+        },
+        {
+            "text": {
+                "headline": "India exempted from attending Patriarchal Synods",
                 "text": "Marco Polo, a Venetian traveller, visits the tomb of St. Thomas at Mylapore and Malabar. He speaks about the presence of Christians in Malabar. Around the same time John of Monte Corvino, a Francisan missionary, also visits the region."
             },
             "start_date":{
+                "year": 853
+            }
+        },
+        {
+            "text": {
+                "headline": "King Alfred's mission",
+                "text": "King Alfred of England sends an embassy to the tomb of St. Thomas in India."
+            },
+            "start_date":{
+                "year": 883
+            }
+        },
+        {
+            "text": {
+                "headline": "Thazhekkad Sasanam",
+                "text": "Edicts written on rock near Kodungalloor (Cranganore), north of Cochin on the Malabar Coast. The edict mentions privileges and rights of the Nasrani community."
+            },
+            "start_date":{
+                "year": 1000
+            },
+            "end_date":{
+                "year": 1100
+            }
+        },{
+            "text": {
+                "headline": "Severe persecution against Christians",
+                "text": "Severe persecution against Christians in Persia, Levent, Central Asia and China begins to show its affects. The Metropolitan sees of Fars (in Iran) and India are supressed. Malabar eventually regains its status while the Christian community in Fars slowly dies."
+            },
+            "start_date":{
+                "year": 1000
+            },
+            "end_date":{
+                "year": 1100
+            }
+        },
+        {
+            "text": {
+                "headline": "Visit of Marco Polo",
+                "text": "Catholicos-Patriarch Mar Theodosius exempts India and other distant Metropolitan provinces from attending the Patriarchal synods convened every four years. Instead these provinces are required to send a report with convenient contributions every six years."
+            },
+            "start_date":{
                 "year": 1293
+            }
+        },
+        {
+            "text": {
+                "headline": "Metropolitan and Gate of All India, Mar Jacob",
+                "text": "Metropolitan and Gate of All India, Mar Jacob, resident at Kodungalloor (in Malabar), has the titles of Metropolitan and Director of the Holy See of Saint Thomas the Apostle, Director of All the Church of Christian India. The East-Syrian Patriarch in Babylon during this period is Mar Yahb'Allaha III, an ethnic Turkic-Mongol from China. "
+            },
+            "start_date":{
+                "year": 1301
             }
         },
         {
@@ -301,6 +396,102 @@
                 "year": 1304,
                 "month": 5,
                 "day": 18
+            }
+        },
+        {
+            "text": {
+                "headline": "Jordanus Catalini",
+                "text": "Jordanus Catalini, a Dominican, visits Malabar and he is the author of the book titled 'Mirabilia'."
+            },
+            "start_date":{
+                "year": 1321
+            }
+        },
+        {
+            "text": {
+                "headline": "Odoric of Pordenone",
+                "text": "Odoric of Pordenone, a Franciscan, travels through various towns on the Malabar coast and to the tomb of St. Thomas in Myalapore."
+            },
+            "start_date":{
+                "year": 1322
+            }
+        },
+        {
+            "text": {
+                "headline": "Amr son of Matthew",
+                "text": "Amr son of Matthew, an East-Syrian writer talks about the tomb of St. Thomas in India. He gathers the information from travellers and pilgrims. "
+            },
+            "start_date":{
+                "year": 1340
+            }
+        },
+        {
+            "text": {
+                "headline": "Natural Disaster in Malabar",
+                "text": "Floods (maybe Tsunami) caused major geographical changes in and around the harbour of Muziris on the Malabar Coast. The town of Muziris disappeared and the coastline also changed. "
+            },
+            "start_date":{
+                "year": 1341
+            }
+        },
+        {
+            "text": {
+                "headline": "John De Marignolli",
+                "text": "John De Marignolli, visits Malabar and writes about the Christians of St. Thomas."
+            },
+            "start_date":{
+                "year": 1349
+            }
+        },
+        {
+            "text": {
+                "headline": "Visit of Nicolo De Conti",
+                "text": "Nicolo De Conti, an Italian traveller, visits the tomb of St. Thomas in Mylapore and speaks about the presence of East-Syrian Christians in small numbers scattered all over India."
+            },
+            "start_date":{
+                "year": 1425
+            },
+            "end_date":{
+                "year": 1430
+            }
+        },
+        {
+            "text": {
+                "headline": "A three-man delegation from Malabar meet the East-Syrian Patriarch",
+                "text": "A three-man delegation from Malabar meet the East-Syrian Patriarch Mar Simeon IV (Simon) in Gazarta d'Bet Zabdai (now Cizre in Turkey) requesting for Bishops. One of the delegates is the famous 'oseph the Indian' who is ordained priest by the Patriarch along with the other surviving delegate, George. Joseph seems to be a very important person of the St. Thomas Christian community. The Patriarch lets the delegation choose suitable monks from the monastery of Mar Augen (St. Eugene). The delegates choose 2 monks, both named Joseph. The Patriarch ordains the chosen monks as Bishops Mar Thoma (Thomas) and Mar Yohannan (John) and sends them to Malabar with the delegates. The new bishops are received with pomp and honour in Malabar. Joseph the Indian becomes the rector of the main parish in Kodungalloor (Cranganore)."
+            },
+            "start_date":{
+                "year": 1490
+            }
+        },
+        {
+            "text": {
+                "headline": "Return of Mar Thomas to Babylon",
+                "text": "Mar Thomas along with Joseph the Indian, returns to Babylon with gifts from Malabar. Mar John stays on. He died in 1517 and is buried in the Udayamperoor (Diamper) church, near Cochin."
+            },
+            "start_date":{
+                "year": 1490
+            }
+        },
+        {
+            "text": {
+                "headline": "Visit of Joseph the Indian to Europe",
+                "text": "Joseph the Indian, travels to Portugal on a Portuguese ship with his brother Mathias, also a priest. Mathias dies in Portugal. Joseph proceeds to Rome and meets the Pope Alexander VI. He is interviewed in Europe and the conversations are written down. It is during this travel that he gets the name 'Joseph the Indian'. Joseph then proceeds to meet the Catholicos-Patriarch of the East-Syrian Church in Babylon. This time he meets Mar Elias, the successor of Mar Simeon IV."
+            },
+            "start_date":{
+                "year": 1500
+            },
+            "end_date":{
+                "year": 1503
+            }
+        },
+        {
+            "text": {
+                "headline": "Catholicos-Patriarch Mar Elias consecrates three more bishops for India",
+                "text": "Mar Elias consecrates three more bishops for India - Mar Denha, Mar Jacob and Archbishop Mar Jahballaha. They are sent to Malabar along with Mar Thomas who had returned from Malabar. Some records say it is Joseph the Indian who prompted the Catholicos Patriarch Mar Elias to send Mar Thomas along with the new bishops."
+            },
+            "start_date":{
+                "year": 1503
             }
         },
         {
