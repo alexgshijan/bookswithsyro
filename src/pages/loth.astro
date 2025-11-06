@@ -81,7 +81,7 @@ async function fetchDayData() {
       fetch(calendarURL).then(r => r.json()).catch(() => null)
     ]);
 
-    const liturgicalTitle = beforeEvening ? 'Next Liturgical Day' : 'Liturgical Day Info';
+    const liturgicalTitle = beforeEvening ? 'Next Liturgical Day' : 'Current Liturgical Day Info';
     const calendarTitle = "Today's Calendar Day Info";
 
     let content = '';
