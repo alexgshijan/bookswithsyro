@@ -20,21 +20,31 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 </iframe>
       <p>
       <div id="daily-readings"></div>
+      <div id="date-info"></div>
 <b>Additional Assistance</b><br>
 For a How-To Guide for using the above PDF, <a href="/blog/loth-guide">click here</a> <br>
 For a list of tunes you can use when using the above PDF, <a href="/blog/loth-tunes">click here</a> <br>
 For a brief look into what are the liturgies of the hours, <a href="/blog/loth">click here</a>  <br>
       </p>
       <script>
+<script>
 function getTomorrowDateString() {
   const tomorrow = new Date();
-  if (tomorrow.getHours() >= 6) {
-  tomorrow.setDate(tomorrow.getDate() + 1);
+  if (tomorrow.getHours() >= 18) {
+    tomorrow.setDate(tomorrow.getDate() + 1);
   }
   const day = String(tomorrow.getDate()).padStart(2, '0');
   const month = String(tomorrow.getMonth() + 1).padStart(2, '0');
   const year = tomorrow.getFullYear();
   return `${day}-${month}-${year}`;
+}
+
+function getCurrentDateInfo() {
+  const now = new Date();
+  const weekday = now.toLocaleDateString('en-US', { weekday: 'long' });
+  const date = now.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+  const time = now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
+  return { weekday, date, time };
 }
 
 function renderDailyReadings(data) {
@@ -46,17 +56,27 @@ function renderDailyReadings(data) {
   const reading = set.Reading3_Eng || set.Reading1_Eng || 'No reading available';
   const gospel = set.ReadingGospal_Eng || 'No gospel reading available';
 
-  const container = document.getElementById('daily-readings');
-  if (!container) return;
+  const readingsContainer = document.getElementById('daily-readings');
+  const dateContainer = document.getElementById('date-info');
+  if (!readingsContainer || !dateContainer) return;
 
-  container.innerHTML = `
-    <p><b>Liturgical Day Info</b> (Brought to you by <a href="https://syrocalendar.com/">SyroCalendar</a>) <br>
+  readingsContainer.innerHTML = `
+    <p><b>Liturgical Day Info</b> <br>
     <b>Day:</b> ${day}<br>
     <b>Season:</b> ${season}<br>
     <b>Lelya's Epistle:</b> ${reading}<br>
-    <b>Ramsa's Gospel:</b> ${gospel}
+    <b>Ramsa's Gospel:</b> ${gospel}<br>
+    <small>(Data from <a href="https://syrocalendar.com/" target="_blank">SyroCalendar</a>)</small>
     </p>
-    <br>
+  `;
+
+  const { weekday, date, time } = getCurrentDateInfo();
+  dateContainer.innerHTML = `
+    <p><b>Today's Date</b><br>
+    <b>Day of Week:</b> ${weekday}<br>
+    <b>Date:</b> ${date}<br>
+    <b>Current Time:</b> ${time}
+    </p>
   `;
 }
 
