@@ -20,33 +20,33 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 </iframe>
       <p>
       <div id="daily-readings"></div>
-      <div id="date-info"></div>
+      <div id="calendar-day"></div>
 <b>Additional Assistance</b><br>
 For a How-To Guide for using the above PDF, <a href="/blog/loth-guide">click here</a> <br>
 For a list of tunes you can use when using the above PDF, <a href="/blog/loth-tunes">click here</a> <br>
 For a brief look into what are the liturgies of the hours, <a href="/blog/loth">click here</a>  <br>
       </p>
 <script>
-function getTomorrowDateString() {
-  const tomorrow = new Date();
-  if (tomorrow.getHours() >= 18) {
-    tomorrow.setDate(tomorrow.getDate() + 1);
+function getLiturgicalDateString() {
+  const date = new Date();
+  if (date.getHours() >= 17) {
+    date.setDate(date.getDate() + 1);
   }
-  const day = String(tomorrow.getDate()).padStart(2, '0');
-  const month = String(tomorrow.getMonth() + 1).padStart(2, '0');
-  const year = tomorrow.getFullYear();
+  const day = String(date.getDate()).padStart(2, '0');
+  const month = String(date.getMonth() + 1).padStart(2, '0');
+  const year = date.getFullYear();
   return `${day}-${month}-${year}`;
 }
 
-function getCurrentDateInfo() {
-  const now = new Date();
-  const weekday = now.toLocaleDateString('en-US', { weekday: 'long' });
-  const date = now.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
-  const time = now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
-  return { weekday, date, time };
+function getCalendarDateString() {
+  const date = new Date();
+  const day = String(date.getDate()).padStart(2, '0');
+  const month = String(date.getMonth() + 1).padStart(2, '0');
+  const year = date.getFullYear();
+  return `${day}-${month}-${year}`;
 }
 
-function renderDailyReadings(data) {
+function renderDayInfo(data, containerId, titleLabel) {
   const set = data.Set1?.[0];
   if (!set) return;
 
@@ -55,12 +55,11 @@ function renderDailyReadings(data) {
   const reading = set.Reading3_Eng || set.Reading1_Eng || 'No reading available';
   const gospel = set.ReadingGospal_Eng || 'No gospel reading available';
 
-  const readingsContainer = document.getElementById('daily-readings');
-  const dateContainer = document.getElementById('date-info');
-  if (!readingsContainer || !dateContainer) return;
+  const container = document.getElementById(containerId);
+  if (!container) return;
 
-  readingsContainer.innerHTML = `
-    <p><b>Liturgical Day Info</b> <br>
+  container.innerHTML = `
+    <p><b>${titleLabel}</b><br>
     <b>Day:</b> ${day}<br>
     <b>Season:</b> ${season}<br>
     <b>Lelya's Epistle:</b> ${reading}<br>
@@ -68,33 +67,28 @@ function renderDailyReadings(data) {
     <small>(Data from <a href="https://syrocalendar.com/" target="_blank">SyroCalendar</a>)</small>
     </p>
   `;
-
-  const { weekday, date, time } = getCurrentDateInfo();
-  dateContainer.innerHTML = `
-    <p><b>Today's Date</b><br>
-    <b>Day of Week:</b> ${weekday}<br>
-    <b>Date:</b> ${date}<br>
-    <b>Current Time:</b> ${time}
-    </p>
-  `;
 }
 
-function fetchDailyReadings() {
-  const dateStr = getTomorrowDateString();
-  const url = `https://syrocalendar.com/SyroMalabarCalendar/?Mode=JSON&Type=DailyReadings&Date=${dateStr}`;
+function fetchDayData() {
+  const liturgicalDateStr = getLiturgicalDateString();
+  const calendarDateStr = getCalendarDateString();
 
-  fetch(url)
-    .then(res => {
-      if (!res.ok) throw new Error(`HTTP error: ${res.status}`);
-      return res.json();
-    })
-    .then(data => {
-      renderDailyReadings(data);
-    })
-    .catch(err => console.error("Error fetching readings:", err));
+  const liturgicalURL = `https://syrocalendar.com/SyroMalabarCalendar/?Mode=JSON&Type=DailyReadings&Date=${liturgicalDateStr}`;
+  const calendarURL = `https://syrocalendar.com/SyroMalabarCalendar/?Mode=JSON&Type=DailyReadings&Date=${calendarDateStr}`;
+
+  // Fetch both in parallel
+  Promise.all([
+    fetch(liturgicalURL).then(r => r.json()).catch(() => null),
+    fetch(calendarURL).then(r => r.json()).catch(() => null)
+  ])
+  .then(([liturgicalData, calendarData]) => {
+    if (liturgicalData) renderDayInfo(liturgicalData, 'liturgical-day', 'Liturgical Day Info');
+    if (calendarData) renderDayInfo(calendarData, 'calendar-day', "Today's Calendar Day Info");
+  })
+  .catch(err => console.error('Error fetching readings:', err));
 }
 
-document.addEventListener('DOMContentLoaded', fetchDailyReadings);
+document.addEventListener('DOMContentLoaded', fetchDayData);
 </script>
     </main>
     <Footer />
