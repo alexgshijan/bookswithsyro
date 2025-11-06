@@ -19,15 +19,13 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
       style="border: none;">
     </iframe>
 
-    <p>
-      <div id="liturgical-day"></div>
-      <div id="calendar-day"></div>
-      <small>(Data from <a href="https://syrocalendar.com/" target="_blank">SyroCalendar</a>)</small><br><hr>
-      <b>Additional Assistance</b><br>
-      For a How-To Guide for using the above PDF, <a href="/blog/loth-guide">click here</a> <br>
-      For a list of tunes you can use when using the above PDF, <a href="/blog/loth-tunes">click here</a> <br>
-      For a brief look into what are the liturgies of the hours, <a href="/blog/loth">click here</a>  <br>
-    </p>
+    <div id="day-info"></div>
+
+    <small>(Data from <a href="https://syrocalendar.com/" target="_blank">SyroCalendar</a>)</small><br><hr>
+    <b>Additional Assistance</b><br>
+    For a How-To Guide for using the above PDF, <a href="/blog/loth-guide">click here</a> <br>
+    For a list of tunes you can use when using the above PDF, <a href="/blog/loth-tunes">click here</a> <br>
+    For a brief look into what are the liturgies of the hours, <a href="/blog/loth">click here</a>  <br>
 
 <script>
 function getTomorrowDateString() {
@@ -39,7 +37,7 @@ function getTomorrowDateString() {
   return `${day}-${month}-${year}`;
 }
 
-function getCalendarDateString() {
+function getTodayDateString() {
   const date = new Date();
   const day = String(date.getDate()).padStart(2, '0');
   const month = String(date.getMonth() + 1).padStart(2, '0');
@@ -47,47 +45,59 @@ function getCalendarDateString() {
   return `${day}-${month}-${year}`;
 }
 
-function renderDayInfo(data, containerId, titleLabel) {
+function renderDayInfoHTML(data, titleLabel) {
   const set = data.Set1?.[0];
-  if (!set) return;
+  if (!set) return '';
 
   const day = set.DayDescription_Eng || 'Unknown Day';
   const season = set.SeasonName_Eng_Full || 'Unknown Season';
   const reading = set.Reading3_Eng || set.Reading1_Eng || 'No reading available';
   const gospel = set.ReadingGospal_Eng || 'No gospel reading available';
 
-  const container = document.getElementById(containerId);
-  if (!container) return;
-
-  container.innerHTML = `
-    <p><b>${titleLabel}</b><br>
-    <b>Day:</b> ${day}<br>
-    <b>Season:</b> ${season}<br>
-    <b>Lelya's Epistle:</b> ${reading}<br>
-    <b>Ramsa's Gospel:</b> ${gospel}<br>
+  return `
+    <p>
+      <b>${titleLabel}</b><br>
+      <b>Day:</b> ${day}<br>
+      <b>Season:</b> ${season}<br>
+      <b>Lelya's Epistle:</b> ${reading}<br>
+      <b>Ramsa's Gospel:</b> ${gospel}<br>
     </p>
   `;
 }
 
-function fetchDayData() {
+async function fetchDayData() {
   const now = new Date();
   const beforeEvening = now.getHours() < 18;
+
   const liturgicalDateStr = getTomorrowDateString();
-  const calendarDateStr = getCalendarDateString();
+  const calendarDateStr = getTodayDateString();
 
   const liturgicalURL = `https://syrocalendar.com/SyroMalabarCalendar/?Mode=JSON&Type=DailyReadings&Date=${liturgicalDateStr}`;
   const calendarURL = `https://syrocalendar.com/SyroMalabarCalendar/?Mode=JSON&Type=DailyReadings&Date=${calendarDateStr}`;
 
-  Promise.all([
-    fetch(liturgicalURL).then(r => r.json()).catch(() => null),
-    fetch(calendarURL).then(r => r.json()).catch(() => null)
-  ])
-  .then(([liturgicalData, calendarData]) => {
-    const titleLabel = beforeEvening ? 'Next Liturgical Day' : 'Liturgical Day Info';
-    if (liturgicalData) renderDayInfo(liturgicalData, 'liturgical-day', titleLabel);
-    if (calendarData) renderDayInfo(calendarData, 'calendar-day', "Today's Calendar Day Info");
-  })
-  .catch(err => console.error('Error fetching readings:', err));
+  try {
+    const [liturgicalData, calendarData] = await Promise.all([
+      fetch(liturgicalURL).then(r => r.json()).catch(() => null),
+      fetch(calendarURL).then(r => r.json()).catch(() => null)
+    ]);
+
+    const liturgicalTitle = beforeEvening ? 'Next Liturgical Day' : 'Liturgical Day Info';
+    const calendarTitle = "Today's Calendar Day Info";
+
+    let content = '';
+
+    if (beforeEvening) {
+      if (calendarData) content += renderDayInfoHTML(calendarData, calendarTitle);
+      if (liturgicalData) content += renderDayInfoHTML(liturgicalData, liturgicalTitle);
+    } else {
+      if (liturgicalData) content += renderDayInfoHTML(liturgicalData, liturgicalTitle);
+      if (calendarData) content += renderDayInfoHTML(calendarData, calendarTitle);
+    }
+
+    document.getElementById('day-info').innerHTML = content || '<p>No data available.</p>';
+  } catch (err) {
+    console.error('Error fetching readings:', err);
+  }
 }
 
 document.addEventListener('DOMContentLoaded', fetchDayData);
