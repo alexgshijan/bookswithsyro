@@ -19,8 +19,9 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
   style="border: none;">
 </iframe>
       <p>
-      <div id="daily-readings"></div>
+      <div id="liturgical-day"></div>
       <div id="calendar-day"></div>
+      <small>(Data from <a href="https://syrocalendar.com/" target="_blank">SyroCalendar</a>)</small>
 <b>Additional Assistance</b><br>
 For a How-To Guide for using the above PDF, <a href="/blog/loth-guide">click here</a> <br>
 For a list of tunes you can use when using the above PDF, <a href="/blog/loth-tunes">click here</a> <br>
@@ -64,7 +65,6 @@ function renderDayInfo(data, containerId, titleLabel) {
     <b>Season:</b> ${season}<br>
     <b>Lelya's Epistle:</b> ${reading}<br>
     <b>Ramsa's Gospel:</b> ${gospel}<br>
-    <small>(Data from <a href="https://syrocalendar.com/" target="_blank">SyroCalendar</a>)</small>
     </p>
   `;
 }
