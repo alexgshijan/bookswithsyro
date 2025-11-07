@@ -24,7 +24,6 @@ The Qestroma, situated between the Qanke and Hykala, is where the altar servers 
 The other prominent structures are the Beth Gazze (labelled BG), Sqaqona, Bema, Beth Mamodisa (baptistry), Beth M’shamshana (sacristy) and Beth Sahade (reliquary).
 
 The pilgrim life of a Nazrani is shown in the liturgical space (from right to left): our Christian life begins at baptism at the Beth Mamodisa, then we are divinised by receiving the Holy Qurbana from the Madbaha during our earthly life, so that when we pass from this world, we will be counted among the Saints at the Beth Sahade.
-
 ![](/images/media/ChurchLayout.png)
 
 ### Praying Toward the East *ad orientem*
