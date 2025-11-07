@@ -25,6 +25,8 @@ The other prominent structures are the Beth Gazze (labelled BG), Sqaqona, Bema, 
 
 The pilgrim life of a Nazrani is shown in the liturgical space (from right to left): our Christian life begins at baptism at the Beth Mamodisa, then we are divinised by receiving the Holy Qurbana from the Madbaha during our earthly life, so that when we pass from this world, we will be counted among the Saints at the Beth Sahade.
 
+![](/images/media/ChurchLayout.png)
+
 ### Praying Toward the East *ad orientem*
 
 Upon entering a church, we enter into the liturgical space, and we face East towards the Madbaha (altar). All East Syriac Churches are traditionally built facing East.[^4]
