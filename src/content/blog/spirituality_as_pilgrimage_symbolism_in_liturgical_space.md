@@ -2,7 +2,7 @@
 title: "Spirituality as Pilgrimage: Symbolism in the East Syriac Liturgical Space"
 description: "Spirituality is the pilgrimage towards Heaven, which is made by every believer as a response to the call of God. The Church teaches us this through the Symbolism within it's Liturgical Space"
 pubDate: "Aug 10 2025"
-heroImage: "/images/pilgrimage.png"
+heroImage: "/images/cover/pilgrimage.png"
 author: jeffrinsaju
 ---
 ### The Pilgrim Church

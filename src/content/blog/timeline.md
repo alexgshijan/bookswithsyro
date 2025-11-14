@@ -2,7 +2,7 @@
 title: "Interactive Timeline of the Syro-Malabar Church from Origin to Date (to be completed)"
 description: "A brief look at key stats of the Syro-Malabar Church from Origin to Date."
 pubDate: "Apr 28 2025"
-heroImage: "/images/1749844957984-a709eb8d-0034-4721-b7e9-bcf1233a5381_1.png"
+heroImage: "/images/cover/flag.png"
 author: alexgshijan
 ---
 

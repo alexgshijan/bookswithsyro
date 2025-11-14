@@ -2,7 +2,7 @@
 title: "Bnay Qyama - Children of the Covenant"
 description: "A Spiritual Pathway to Holiness for Every Walk of Life"
 pubDate: "Aug 17 2025"
-heroImage: "/images/bnayqyama.png"
+heroImage: "/images/cover/bnayqyama.png"
 author: rt
 ---
 ### Children of the Covenant

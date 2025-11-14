@@ -2,7 +2,7 @@
 title: "Seasons of the Church"
 description: "A look into the seasons of the syro-malabar church and the lessons the church is trying to impart on us through this pilgrimage through time."
 pubDate: "Oct 10 2025"
-heroImage: "/images/seasons.png"
+heroImage: "/images/cover/seasons.png"
 author: alexgshijan
 ---
 

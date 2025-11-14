@@ -2,7 +2,7 @@
 title: "How to pray the LoTHs"
 description: "Overcoming the learning curve of praying the LoTHs"
 pubDate: "Oct 13 2025"
-heroImage: "/images/loth-guide.png"
+heroImage: "/images/cover/loth-guide.png"
 author: alexgshijan
 ---
 As I noted in my article [What are the Liturgy of The Hours?](/blog/loth), The Liturgies of the Hours, "Yamaprathanakal" or Divine Praises are the heartbeat of the Syro-Malabar Church. They are tied to specific hours and to the rhythm of the liturgical calendar. It allows us to come together as a community, displaced as we are, to celebrate our day, give thanks to God and sanctify time itself. These Divine Praises allow us to transform our days into prayers to God. But praying them, especially if we are dependant on using [online copies](/loth/), can be difficult. As such, the following guide hopes to assist make that process smoother.
@@ -70,4 +70,4 @@ At the Onitha d’Sapra (Morning Anthem of the day), with the Deacon initially s
 At the end of Sapra, remember to exchange peace starting from the presider
 
 #### Bookmark Side Menu on Desktop
-![](/images/desktop.png)
+![](/images/media/desktop.png)
