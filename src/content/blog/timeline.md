@@ -1,5 +1,5 @@
 ---
-title: "Interactive Timeline of the Syro-Malabar Church from Origin to Date (to be completed)"
+title: "Interactive Timeline of the Syro-Malabar Church from Origin to Date (TBC)"
 description: "A brief look at key stats of the Syro-Malabar Church from Origin to Date."
 pubDate: "Apr 28 2025"
 heroImage: "/images/cover/flag.png"

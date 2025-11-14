@@ -1,5 +1,5 @@
 ---
-title: "LoTHs Tunes (In Progress)"
+title: "LoTHs Tunes (TBC)"
 description: "A sample selections on tunes usable with the English Divine Praises, incluing page references"
 pubDate: "June 12 2025"
 heroImage: ""
