@@ -21,3 +21,21 @@ author: smym
     frame.src = frame.src + fragment;
   }
 </script>
+
+dedication - https://www.canva.com/design/DAG20rD1u-c/fvHwjhtPgR5IaknlPq9BXw/view?embed
+elijah cross moses - https://www.canva.com/design/DAGy8Af3R0k/UVqHKIKPRHlA9PsDFQuphA/view?embed
+
+<script>
+async function fetchDayData() {
+
+  const liturgicalURL = `https://syrocalendar.com/SyroMalabarCalendar/?Mode=JSON&Type=DailyReadings`;
+
+  try {
+    const [liturgicalData] = await Promise.all([
+      fetch(liturgicalURL).then(r => r.json()).catch(() => null)
+    ]);
+    console.log(liturgicalData)
+}}
+
+document.addEventListener('DOMContentLoaded', fetchDayData);
+</script>
