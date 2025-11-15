@@ -17,24 +17,33 @@ author: smym
   const fragment = window.location.hash;
   const frame = document.getElementById('canvaFrame');
 
-  if (fragment) {
-    frame.src = frame.src + fragment;
+  const seasonMap = {
+    7: "https://www.canva.com/design/DAG20rD1u-c/fvHwjhtPgR5IaknlPq9BXw/view?embed",
+    4: "https://www.canva.com/design/DAGy8Af3R0k/UVqHKIKPRHlA9PsDFQuphA/view?embed",
+    5: "https://www.canva.com/design/DAGy8Af3R0k/UVqHKIKPRHlA9PsDFQuphA/view?embed",
+    6: "https://www.canva.com/design/DAGy8Af3R0k/UVqHKIKPRHlA9PsDFQuphA/view?embed"
+  };
+
+  async function fetchDayData() {
+    const liturgicalURL =
+      "https://syrocalendar.com/SyroMalabarCalendar/?Mode=JSON&Type=DailyReadings";
+
+    const liturgicalData = await fetch(liturgicalURL)
+      .then(r => r.json())
+      .catch(() => null);
+
+    if (!liturgicalData || !liturgicalData.Set1?.length) return;
+
+    const seasonID = liturgicalData.Set1[0].SeasonID;
+    const newURL = seasonMap[seasonID];
+
+    if (newURL) {
+      frame.src = newURL + fragment;
+    } else {
+      // keep the default frame.src but still apply fragment
+      frame.src = frame.src + fragment;
+    }
   }
-</script>
 
-7 - https://www.canva.com/design/DAG20rD1u-c/fvHwjhtPgR5IaknlPq9BXw/view?embed
-4,5,6 - https://www.canva.com/design/DAGy8Af3R0k/UVqHKIKPRHlA9PsDFQuphA/view?embed
-
-<script>
-async function fetchDayData() {
-
-  const liturgicalURL = `https://syrocalendar.com/SyroMalabarCalendar/?Mode=JSON&Type=DailyReadings`;
-
-    const [liturgicalData] = await Promise.all([
-      fetch(liturgicalURL).then(r => r.json()).catch(() => null)
-    ]);
-    console.log(liturgicalData)
-}
-
-document.addEventListener('DOMContentLoaded', fetchDayData);
+  document.addEventListener('DOMContentLoaded', fetchDayData);
 </script>
